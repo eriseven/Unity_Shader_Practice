@@ -490,4 +490,11 @@ xcuserdata/
 !*.xcworkspace/contents.xcworkspacedata
 /*.gcno
 
+SimplePhysicalShader/
+SimplePhysicalShader.meta
+
+TempResource/
+TempResource.meta
+
+
 

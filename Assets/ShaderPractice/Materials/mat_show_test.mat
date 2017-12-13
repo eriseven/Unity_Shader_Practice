@@ -23,7 +23,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: ceddb1bc092adb840a23b608d22f5737, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _IrradianceMap:
@@ -52,8 +52,10 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _DebugMode: 0
-    - _Metal: 0
-    - _Rough: 1
+    - _IBLFactor: 1
+    - _LightFactor: 3.141
+    - _Metal: 1
+    - _Rough: 0.875
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _F0: {r: 0.04, g: 0.04, b: 0.04, a: 0.04}
+    - _F0: {r: 0.029411793, g: 0.029411793, b: 0.029411793, a: 0.04}

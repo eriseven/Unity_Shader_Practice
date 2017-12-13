@@ -23,14 +23,27 @@ float DotClamp01(float3 v1, float3 v2)
 // }
 
 
+inline half _Pow5 (half x)
+{
+    return x*x * x*x * x;
+}
 
+half _DisneyDiffuse(half NdotV, half NdotL, half LdotH, half perceptualRoughness)
+{
+    half fd90 = 0.5 + 2 * LdotH * LdotH * perceptualRoughness;
+    // Two schlick fresnel term
+    half lightScatter   = (1 + (fd90 - 1) * _Pow5(1 - NdotL));
+    half viewScatter    = (1 + (fd90 - 1) * _Pow5(1 - NdotV));
 
+    return lightScatter * viewScatter;
+}
 
 
 //Normal Distribution Function (NDF)
 half DistributionGGX(half3 N, half3 H, half roughness)
 {
     half a = roughness*roughness;
+    // half a = roughness;
     half a2 = a*a;
     half NdotH = max(dot(N, H), 0.0);
     half NdotH2 = NdotH*NdotH;

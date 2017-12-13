@@ -8,10 +8,10 @@
 		_BumpMap ("Normal Map", 2D) = "bump" {}
 
 		_MetalMap ("Metal Map", 2D) = "white" {}
-		_Metal("Metal", Range(0, 10)) = 1
+		_Metal("Metal", Range(0, 1)) = 1
 
 		_RoughMap ("Rough Map", 2D) = "white" {}
-		_Rough ("Rough", Range(0, 10)) = 1
+		_Rough ("Rough", Range(0, 1)) = 1
 
 		_OcclusionMap ("Occlusion Map", 2D) = "white" {}
 
@@ -24,6 +24,10 @@
 		_RadianceMap("Randiance Map", Cube) = "_Skybox" {}
 
 		_BDRF_Map("BDRF LUT Map", 2D) = "white" {}
+
+		_LightFactor("Light Factor", Range(1, 3.1415)) = 1
+
+		_IBLFactor("IBL Factor", Range(0, 1)) = 1
 
         _DebugMode ("Debug Mode", Int) = 0
 	}
@@ -60,6 +64,10 @@
 	fixed4 _Color;
 
 	float4 _F0;
+
+	half _LightFactor;
+
+	half _IBLFactor;
 
 	int _DebugMode;
 	ENDCG
@@ -132,6 +140,7 @@
 
 				fixed3 rough = tex2D(_RoughMap, i.uv);
 				rough.r *= _Rough;
+				rough.r = clamp(rough.r, 0.01, 0.9);
 
 				fixed3 ao = tex2D(_OcclusionMap, i.uv);
 
@@ -145,23 +154,32 @@
 
 				half3 viewDir = normalize(UnityWorldSpaceViewDir(i.worldPos));
 
+
+				// half shiftAmount = dot(worldNormal, viewDir);
+				// worldNormal = shiftAmount < 0.0f ? worldNormal + viewDir * (-shiftAmount + 1e-5f) : worldNormal;
+
+
 				half3 refl = normalize(reflect(-viewDir, worldNormal));
 
 				half3 lightDir = normalize(UnityWorldSpaceLightDir(i.worldPos.xyz));
 
 				half3 halfDir = normalize(viewDir + lightDir);
 
-				half HdotL = DotClamp01(halfDir, viewDir);
+				half HdotL = DotClamp01(lightDir, halfDir);
 				half NdotV = DotClamp01(worldNormal, viewDir);
 				half NdotL = DotClamp01(worldNormal, lightDir);
+
 
 				//-----------------------BRDF Start----------------------------
 				// half3 F0 = HALF3_ONE * 0.04;
 				half3 F0 = _F0;
 				F0 = F0 * (1 - metal.r) + color * metal.r;
+				F0 = clamp(F0, 0.02, 0.99);
+				// F0 = F0 * metal.r + color * (1 - metal.r);
+				// F0 = HALF3_ONE;
 				half3 Lo = HALF3_ZERO;
 
-				half3 radiance = _LightColor0.rgb;
+				half3 radiance = _LightColor0.rgb * _LightFactor;
 
 				float NDF = DistributionGGX(worldNormal, halfDir, rough.r);
 				// float NDF = Blinn_Phong(worldNormal, halfDir, rough.r);
@@ -169,9 +187,9 @@
 
 
 
-				// float G = GeometrySmith(worldNormal, viewDir, lightDir, rough.r);
+				float G = GeometrySmith(worldNormal, viewDir, lightDir, rough.r);
 				// float G = GeometryImplicit(NdotL, NdotV);
-				float G = GeometryNeumann(NdotL, NdotV);
+				// float G = GeometryNeumann(NdotL, NdotV);
 
 				float3 F = FresnelSchlick(HdotL, F0);
 
@@ -179,13 +197,19 @@
 				float denominator = 4*NdotV*NdotL + 0.00001;
 
 				float3 brdf = nominator/denominator;
+				// float3 brdf = nominator;
 
 				half3 kS = F;
 				half3 kD = HALF3_ONE - kS;
-				kD *= 1.0 - metal.r;
-				kD *= shadow;
 
-				Lo += (kD*color/UNITY_PI + brdf)*radiance*NdotL;
+				// kD = _DisneyDiffuse(NdotV, NdotL, HdotL, rough.r);
+
+				kD *= 1.0 - metal.r;
+
+				// kD *= shadow;
+
+				Lo += (kD*color*UNITY_INV_PI + brdf) * radiance * NdotL * shadow;
+				// Lo += (kD*color + brdf)*radiance*NdotL;
 				//------------------------BRDF End-----------------------------
 
 				F = FresnelSchlickRoughness(NdotV, F0, rough.r);
@@ -193,18 +217,20 @@
 				kD = HALF3_ONE - kS;
 				kD *= 1.0 - metal.r;
 
+				F = F * (1-metal.r) + color.rgb * metal.r;
 
 				half4 irrData = UNITY_SAMPLE_TEXCUBE(_IrradianceMap, worldNormal);
 				half3 irradiance = DecodeHDR(irrData, unity_SpecCube0_HDR);
 				half3 diffuse = color.rgb * irradiance;
+				// half3 diffuse = color.rgb * irradiance;
 
 
 
-				half4 prefilterData = UNITY_SAMPLE_TEXCUBE_LOD(_RadianceMap, refl, rough.r * 8);
+				half4 prefilterData = UNITY_SAMPLE_TEXCUBE_LOD(_RadianceMap, refl, rough.r * 9);
 				half3 prefilterColor = DecodeHDR(prefilterData, unity_SpecCube0_HDR);
 				// skyColor = DecodeHDR(skyData, unity_SpecCube0_HDR) * UNITY_INV_PI;
 				brdf.xy = tex2D(_BDRF_Map, half2(NdotV, rough.r)).rg;
-				half3 reflection = prefilterColor*(F*brdf.x + brdf.y);
+				half3 reflection = prefilterColor*(F*brdf.x + brdf.y) * _IBLFactor;
 
 				half3 ambient = (kD * diffuse + reflection)*ao;
 
@@ -216,13 +242,13 @@
 				if (_DebugMode == 0)
 					fragColor.rgb = Lo + ambient;
 				else if (_DebugMode == 1)
-					fragColor.rgb = worldNormal.rgb;
+					fragColor.rgb = Lo.rgb;
 				else if(_DebugMode == 2)
-					fragColor.rgb = metal.rgb;
+					fragColor.rgb = ambient;
 				else if(_DebugMode == 3)
-					fragColor.rgb = rough.rgb;
+					fragColor.rgb = half3(G, 0, 0);
 				else if(_DebugMode == 4)
-					fragColor.rgb = ao.rgb;
+					fragColor.rgb = F;
 				else if(_DebugMode == 5)
 					fragColor.rgb = brdf;
 				else if(_DebugMode == 6)
