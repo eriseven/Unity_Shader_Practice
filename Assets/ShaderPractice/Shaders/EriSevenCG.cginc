@@ -4,14 +4,71 @@
 #include "UnityCG.cginc"
 #include "Lighting.cginc"
 
+#define HALF3(x) half3(x,x,x)
+#define HALF4(x) half4(x,x,x,x)
+
 #define HALF3_ONE   half3(1,1,1)
 #define HALF3_ZERO  half3(0,0,0)
+
 
 //------------------Utilities---------------------
 float DotClamp01(float3 v1, float3 v2)
 {
-    return saturate(dot(v1, v2));
+    return clamp(dot(v1, v2), 0.00001, 1);
 }
+
+
+fixed4 tex2DL(sampler2D samp, float2 s)
+{
+    #ifdef UNITY_COLORSPACE_GAMMA 
+        half4 col = tex2D(samp, s);
+        return fixed4(GammaToLinearSpace(col), col.a);
+    #else
+        return tex2D(samp, s);
+    #endif
+}
+
+
+
+
+inline half3 DecodeHDR_L (half4 data, half4 decodeInstructions)
+{
+    // Take into account texture alpha if decodeInstructions.w is true(the alpha value affects the RGB channels)
+    half alpha = decodeInstructions.w * (data.a - 1.0) + 1.0;
+
+    #if defined(UNITY_USE_NATIVE_HDR)
+        return decodeInstructions.x * data.rgb; // Multiplier for future HDRI relative to absolute conversion.
+    #else
+        return (decodeInstructions.x * pow(alpha, decodeInstructions.y)) * data.rgb;
+    #endif
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

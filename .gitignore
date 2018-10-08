@@ -496,5 +496,8 @@ SimplePhysicalShader.meta
 TempResource/
 TempResource.meta
 
+JMO Assets/
+JMO Assets.meta
 
-
+Packages/
+Packages.meta

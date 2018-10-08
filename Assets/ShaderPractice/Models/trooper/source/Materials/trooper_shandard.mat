@@ -84,6 +84,8 @@ Material:
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
+    - _IBLFactor: 1
+    - _LightFactor: 1
     - _Metal: 0.7
     - _Metallic: 0
     - _Mode: 0

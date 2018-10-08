@@ -272,7 +272,7 @@
 				float3 dir_light =  cdata.lightDir;
 				float3 sha_color = float3(0.6706, 0.4588, 0.4275); //(171.0/255.0, 117.0/255.0, 109.0/255.0);
 				float3 dirLightResult = 
-					_LightColor0.rgb * lerp(sha_color, float3(1.0, 1.0, 1.0), shadow_factor);
+					0.5 * _LightColor0.rgb * lerp(sha_color, float3(1.0, 1.0, 1.0), shadow_factor);
 
 				// return fixed4(dirLightResult.rgb, 1);
 

@@ -19,11 +19,11 @@
         _F0("Fresnel 0", Color) = (0.04,0.04,0.04,0.04)
 
 
-		_IrradianceMap("Irrandiance Map", Cube) = "_Skybox" {}
+		// _IrradianceMap("Irrandiance Map", Cube) = "_Skybox" {}
 
-		_RadianceMap("Randiance Map", Cube) = "_Skybox" {}
+		// _RadianceMap("Randiance Map", Cube) = "_Skybox" {}
 
-		_BDRF_Map("BDRF LUT Map", 2D) = "white" {}
+		// _BDRF_Map("BDRF LUT Map", 2D) = "white" {}
 
 		_LightFactor("Light Factor", Range(1, 3.1415)) = 1
 
@@ -171,8 +171,10 @@
 
 
 				//-----------------------BRDF Start----------------------------
-				// half3 F0 = HALF3_ONE * 0.04;
-				half3 F0 = _F0;
+
+				// half3 F0 = unity_ColorSpaceDielectricSpec.xyz;
+				half3 F0 = HALF3_ONE * 0.04;
+				// half3 F0 = _F0;
 				F0 = F0 * (1 - metal.r) + color * metal.r;
 				F0 = clamp(F0, 0.02, 0.99);
 				// F0 = F0 * metal.r + color * (1 - metal.r);

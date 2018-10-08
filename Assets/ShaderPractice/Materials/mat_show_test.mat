@@ -7,8 +7,9 @@ Material:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: mat_show_test
-  m_Shader: {fileID: 4800000, guid: d0c93571da58c494ca030e82666549a9, type: 3}
-  m_ShaderKeywords: _METALLICGLOSSMAP _NORMALMAP
+  m_Shader: {fileID: 4800000, guid: d92fa0328fa3ee7489d5279404992cb0, type: 3}
+  m_ShaderKeywords: _DEBUG_NONE _GEOMETRY_SMITH _METALLICGLOSSMAP _NDF_DISTRIBUTIONGGX
+    _NORMALMAP
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -38,6 +39,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -51,11 +56,15 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
+    - _Debug: 0
     - _DebugMode: 0
+    - _Force_Colorspace_Linear: 0
+    - _Geometry: 0
     - _IBLFactor: 1
     - _LightFactor: 3.141
     - _Metal: 1
-    - _Rough: 0.875
+    - _NDF: 0
+    - _Rough: 1
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _F0: {r: 0.029411793, g: 0.029411793, b: 0.029411793, a: 0.04}

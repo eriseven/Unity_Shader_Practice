@@ -45,7 +45,7 @@
 
 
 
-		_SkinMasks6("Skin Mask", 2D) = "white" {}
+		// _SkinMasks6("Skin Mask", 2D) = "white" {}
 		skin_color_switch("Skin Color Switch", Range(0, 1)) = 0
 
 		skin_color1("Skin Color 1", Color) = ( 0.3765, 0.1765, 0.1686, 0 )
@@ -245,7 +245,8 @@
 				half3 tspace2 : TEXCOORD3; // tangent.z, bitangent.z, normal.z
 
 				half4 worldPos : TEXCOORD4;
-				SHADOW_COORDS(5)
+				// SHADOW_COORDS(5)
+				LIGHTING_COORDS(5, 6)
 				// half3 color : COLOR;
 			};
 
@@ -270,7 +271,8 @@
 
 				float2 uv = float2(v.uv.x, 1 - v.uv.y);
 				o.uv = TRANSFORM_TEX(uv, _MainTex);
-				TRANSFER_SHADOW(o)
+				// TRANSFER_SHADOW(o)
+				TRANSFER_VERTEX_TO_FRAGMENT(o);
 
 				return o;
 			}
@@ -337,7 +339,7 @@
 			{
 				FragmentCommonData cdata = SetupFragCommomData(i);
 
-				fixed shadow = SHADOW_ATTENUATION(i);
+				fixed shadow = LIGHT_ATTENUATION(i);
 
 				float3 masks = tex2D(_Masks7, i.uv).rgb;
 				float diffuseAlpha =  1.0;
@@ -349,6 +351,34 @@
 				diffuseAlpha = masks.r;
 				matcap_mask02 = masks.g;
 
+
+
+
+
+				// float4 mask_color = tex2D(_SkinMasks6, i.uv);
+				// float4 hsv = rgb2hsvl(cdata.diffColor.rgb);
+				// float4 do1 = skin_orgin_hsv1;
+				// float4 do2 = skin_orgin_hsv2;
+				// float4 do3 = skin_orgin_hsv3;
+				// float4 dhsv1 = skin_hsv1-do1;
+				// float4 dhsv2 = skin_hsv2-do2;
+				// float4 dhsv3 = skin_hsv3-do3;
+				// float d1 =  clamp((mask_color.r*mask_color.r-0.1)*1.1111, 0.0, 1.0);
+				// float d2 =  clamp((mask_color.g*mask_color.g-0.1)*1.1111, 0.0, 1.0);
+				// float d3 =  clamp((mask_color.b*mask_color.b-0.1)*1.1111, 0.0, 1.0);
+				// float3 a1 = lerp(cdata.diffColor.rgb, skin_color1.rgb, mask_color.r*skin_color_switch);
+
+				// cdata.diffColor.rgb = lerp(a1, hsv2rgb(float3(do1.r, d1, hsv.b) + dhsv1.rgb), step(skinhold0, mask_color.r)*skin_color_switch);
+				// float3 a2 = lerp(cdata.diffColor.rgb, skin_color2.rgb, mask_color.g*skin_color_switch);
+				// cdata.diffColor.rgb = lerp(a2, hsv2rgb(float3(do2.r, d2, hsv.b) + dhsv2.rgb), step(skinhold0, mask_color.g)*skin_color_switch);
+				// float3 a3 = lerp(cdata.diffColor.rgb, skin_color3.rgb, mask_color.b*skin_color_switch);
+				// cdata.diffColor.rgb = lerp(a3, hsv2rgb(float3(do3.r, d3, hsv.b) + dhsv3.rgb), step(skinhold0, mask_color.b)*skin_color_switch);
+
+
+
+
+
+
 				float3 dark_color =   _ShadowColor.xyz;
 				// float shadow_factor = 1.0;
 				float shadow_factor = shadow;
@@ -356,7 +386,7 @@
 				float3 dir_light =  cdata.lightDir;
 				float3 sha_color = float3(0.6706, 0.4588, 0.4275); //(171.0/255.0, 117.0/255.0, 109.0/255.0);
 				float3 dirLightResult = 
-					_LightColor0.rgb * lerp(sha_color, float3(1.0, 1.0, 1.0), shadow_factor);
+					0.5 * _LightColor0.rgb * lerp(sha_color, float3(1.0, 1.0, 1.0), shadow_factor);
 
 				// return fixed4(dirLightResult.rgb, 1);
 
@@ -382,10 +412,20 @@
 				float NdotshadowFactor = clamp(dot(dir_shadow, cdata.normalWorld.xyz), 0.0, 1.0);
 				float RimlightDotValue = clamp(dot(dir_rimlight, cdata.normalWorld.xyz), 0.0, 1.0);
 
+				// return fixed4(NdotshadowFactor, 0, 0, 1);
+				// return fixed4(RimlightDotValue, 0, 0, 1);
+				// return fixed4(NdotshadowFactor * NdotView, 0, 0, 1);
+
 				float Ndotshadow = smoothstep(shadownol1, shadownol2, NdotshadowFactor * NdotView);
+
+				// return fixed4(Ndotshadow, 0, 0, 1);				
 
 				float dif_illum = dot(diffuse, half3(0.299, 0.587, 0.114));
 				float shadowshift = smoothstep(0.25, 0.74, dif_illum);
+
+				// return fixed4(shadowshift, 0, 0, 1);				
+
+
 				float3 shadowColor = lerp(_DarkShadow.rgb, _BrightShadow.rgb, shadowshift);
 				falloff_c =  lerp( shadowColor * diffuse.rgb, diffuse.rgb, Ndotshadow );
 
@@ -427,6 +467,7 @@
 
 				//--------------------emiss---------------------------
 				float3 emissive = float3(0.0, 0.0, 0.0);
+
 				float emissive_mask = 0.0;
 				emissive_mask = tex2D(_BumpMap, i.uv).b;
 
@@ -445,35 +486,18 @@
 
 
 
-				float4 mask_color = tex2D(_SkinMasks6, i.uv);
-				float4 hsv = rgb2hsvl(cdata.diffColor.rgb);
-				float4 do1 = skin_orgin_hsv1;
-				float4 do2 = skin_orgin_hsv2;
-				float4 do3 = skin_orgin_hsv3;
-				float4 dhsv1 = skin_hsv1-do1;
-				float4 dhsv2 = skin_hsv2-do2;
-				float4 dhsv3 = skin_hsv3-do3;
-				float d1 =  clamp((mask_color.r*mask_color.r-0.1)*1.1111, 0.0, 1.0);
-				float d2 =  clamp((mask_color.g*mask_color.g-0.1)*1.1111, 0.0, 1.0);
-				float d3 =  clamp((mask_color.b*mask_color.b-0.1)*1.1111, 0.0, 1.0);
-				float3 a1 = lerp(cdata.diffColor.rgb, skin_color1.rgb, mask_color.r*skin_color_switch);
 
-				cdata.diffColor.rgb = lerp(a1, hsv2rgb(float3(do1.r, d1, hsv.b) + dhsv1.rgb), step(skinhold0, mask_color.r)*skin_color_switch);
-				float3 a2 = lerp(cdata.diffColor.rgb, skin_color2.rgb, mask_color.g*skin_color_switch);
-				cdata.diffColor.rgb = lerp(a2, hsv2rgb(float3(do2.r, d2, hsv.b) + dhsv2.rgb), step(skinhold0, mask_color.g)*skin_color_switch);
-				float3 a3 = lerp(cdata.diffColor.rgb, skin_color3.rgb, mask_color.b*skin_color_switch);
-				cdata.diffColor.rgb = lerp(a3, hsv2rgb(float3(do3.r, d3, hsv.b) + dhsv3.rgb), step(skinhold0, mask_color.b)*skin_color_switch);
+				// return fixed4(emissive, 1);
 
 
-
-
-
-
-
-
-				float3 finalColor = rim + falloff_c;
+				
+				float3 finalColor = emissive + rim + falloff_c;
 				float alpha = 1.0;
 				alpha = diffuseAlpha*AlphaMtl;
+
+
+
+
 
 				float4 result = float4(finalColor.rgb, alpha);
 				// return result;
@@ -481,9 +505,10 @@
 				float4 FlashedColor = ChangeColor;
 				float flash_factor =  GetFresnel(cdata, fresnel_intensity);
 				FlashedColor.xyz = ChangeColor.xyz * flash_factor;
+				// return FlashedColor;
 
-				// result.rgb = result.rgb * shadow;
-				// result.rgb = result.rgb + (FlashedColor.rgb*ColorFactor); //ColorFactor  ;
+				result.rgb = result.rgb + (FlashedColor.rgb*ColorFactor); //ColorFactor  ;
+
 				// return fixed4(FlashedColor.rgb, 1);
 				// return cdata.diffColor;
 				return result;

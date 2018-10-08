@@ -84,8 +84,8 @@ Material:
     - _Metallic: 0
     - _Mode: 0
     - _OcclusionStrength: 1
-    - _OutlineWidth: 0.1
-    - _Outlinefix: 0.33
+    - _OutlineWidth: 0.07
+    - _Outlinefix: 0.334
     - _Parallax: 0.02
     - _ReflectionIntensity: 1
     - _ReflectionIntensityHair: 1
@@ -95,11 +95,11 @@ Material:
     - _UVSec: 0
     - _ZWrite: 1
     - fresnel_intensity: 1
-    - shadow_pos_x: -0.01
-    - shadow_pos_y: 0.06
-    - shadow_pos_z: -1
-    - shadownol1: 0
-    - shadownol2: 0.09
+    - shadow_pos_x: -6.17
+    - shadow_pos_y: 7.01
+    - shadow_pos_z: -1.75
+    - shadownol1: 0.09
+    - shadownol2: 0.26
     - skin_color_switch: 0
     - skinhold0: 0.1
     m_Colors:
@@ -110,7 +110,7 @@ Material:
     - _DarkShadow: {r: 0.7333, g: 0.6078, b: 0.898, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _EmmsiveColor: {r: 0.5, g: 0.5, b: 0.5, a: 0.5}
-    - _OutlineColor: {r: 0.196, g: 0.118, b: 0.078, a: 1}
+    - _OutlineColor: {r: 0.18344508, g: 0.8602941, b: 0.2441281, a: 1}
     - _ShadowColor: {r: 0, g: 0, b: 0, a: 0}
     - fo_rim_color: {r: 0.4157, g: 0.4157, b: 0.4157, a: 1}
     - skin_color1: {r: 0.3765, g: 0.1765, b: 0.1686, a: 0}

@@ -85,7 +85,7 @@ Material:
     - _Glossiness: 0.5
     - _GlossyReflections: 1
     - _IBLFactor: 1
-    - _LightFactor: 2.595
+    - _LightFactor: 3.1415
     - _Metal: 1
     - _Metallic: 0
     - _Mode: 0

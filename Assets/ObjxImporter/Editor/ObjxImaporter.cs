@@ -47,9 +47,14 @@ public class ObjxImaporter : ScriptedImporter
                         unityMesh.triangles = mesh.triangles;
                     }
 
-                    if (entryFileName.Contains("uv"))
+                    if (entryFileName.Contains("uv1"))
                     {
                         unityMesh.uv = mesh.uv;
+                    }
+
+                    if (entryFileName.Contains("uv2"))
+                    {
+                        unityMesh.uv2 = mesh.uv;
                     }
 
                     if (entryFileName.Contains("nor"))
@@ -84,11 +89,24 @@ public class ObjxImaporter : ScriptedImporter
 
                         unityMesh.tangents = tangents;
                     }
+
+                    //if (entryFileName.Contains("tex1"))
+                    //{
+                    //    Vector2[] uv2 = new Vector2[mesh.normals.Length];
+
+                    //    for (int i = 0; i < uv2.Length; i++)
+                    //    {
+                    //        Vector3 _uv = mesh.normals[i];
+                    //        uv2[i] = new Vector2(_uv.x, _uv.y);
+                    //    }
+
+                    //    unityMesh.uv2 = uv2;
+                    //}
                 }
             }
 
             unityMesh.RecalculateBounds();
-            ctx.SetMainAsset("main obj", unityMesh);
+            ctx.SetMainObject(unityMesh);
         }
         catch (System.Exception)
         {
