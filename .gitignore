@@ -493,11 +493,11 @@ xcuserdata/
 SimplePhysicalShader/
 SimplePhysicalShader.meta
 
-TempResource/
-TempResource.meta
+#TempResource/
+#TempResource.meta
 
-JMO Assets/
-JMO Assets.meta
+#JMO Assets/
+#JMO Assets.meta
 
 Packages/
 Packages.meta

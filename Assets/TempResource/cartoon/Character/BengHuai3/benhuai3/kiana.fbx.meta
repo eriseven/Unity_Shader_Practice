@@ -1,0 +1,4022 @@
+fileFormatVersion: 2
+guid: 2ae936e87c9749f46a62b85deea27acf
+timeCreated: 1477293642
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Aperture
+    100002: Aperture 1
+    100004: Avatar_Kiana_C1_FX
+    100006: Avatar_Kiana_C1_FX_backup
+    100008: Avatar_Kiana_C1_FX_Low
+    100010: Avatar_Kiana_C1_FX_UI
+    100012: Avatar_Kiana_C2_PT
+    100014: Avatar_Kiana_C2_PT_backup
+    100016: Avatar_Kiana_C2_PT_Low
+    100018: Avatar_Kiana_C2_PT_UI
+    100020: Avatar_Kiana_C3_QN
+    100022: Avatar_Kiana_C3_QN_backup
+    100024: Avatar_Kiana_C3_QN_Low
+    100026: Avatar_Kiana_C3_QN_UI
+    100028: Avatar_Kiana_C4_YN
+    100030: Avatar_Kiana_C4_YN_backup
+    100032: Avatar_Kiana_C4_YN_Low
+    100034: Avatar_Kiana_C4_YN_UI
+    100036: Avatar_Kiana_Charge
+    100038: Avatar_Kiana_Charge_After_Hit
+    100040: Avatar_Kiana_FX_ATK4_Center
+    100042: Avatar_Kiana_FX_ATK4_Left_Glow
+    100044: Avatar_Kiana_FX_ATK4_Right_Glow
+    100046: Avatar_Kiana_FX_BlackHole
+    100048: Avatar_Kiana_FX_SKL2_Extra_Flare
+    100050: Avatar_Kiana_Ground_Explode
+    100052: Avatar_Kiana_Ground_Explode_Large
+    100054: Avatar_Kiana_Ground_Explode_Small
+    100056: Avatar_Kiana_QN_Evade_Light
+    100058: Avatar_Kiana_QN_RandomThunder
+    100060: Avatar_Kiana_QN_Ultra_Heal
+    100062: Avatar_Kiana_Shoot_Pistol_Left_01
+    100064: Avatar_Kiana_Shoot_Pistol_Left_01_New
+    100066: Avatar_Kiana_Shoot_Pistol_Right_01
+    100068: Avatar_Kiana_Shoot_Pistol_Right_01_New
+    100070: Avatar_Kiana_Skill_4_1
+    100072: Avatar_Kiana_Sky_Explode
+    100074: Avatar_Kiana_Ultra_Enter
+    100076: Avatar_Kiana_Ultra_Enter 1
+    100078: Avatar_Kiana_Ultra_Enter 2
+    100080: Avatar_Kiana_Ultra_Enter 3
+    100082: Avatar_Kiana_Ultra_Enter 4
+    100084: Avatar_Kiana_Ultra_Follow
+    100086: Avatar_Kiana_WitchTime_Petal
+    100088: Avatar_Kiana_WitchTime_Petal_Dark
+    100090: Avatar_Kiana_YN_ATK4_Shoot_01
+    100092: Avatar_Kiana_YN_ATK4_Shoot_02
+    100094: Avatar_Kiana_YN_BigGun
+    100096: Avatar_Kiana_YN_BigGun_Charge
+    100098: Avatar_Kiana_YN_BigGun_Explode
+    100100: Avatar_Kiana_YN_BigGun_Shoot
+    100102: Avatar_Kiana_YN_Missile_Explode
+    100104: Avatar_Kiana_YN_Ultra_Start
+    100106: Back
+    100108: Back 1
+    100110: Back 2
+    100112: Back 3
+    100114: Beam-2
+    100116: Beam-2 1
+    100118: Beam-2 2
+    100120: BigGun1
+    100122: Bip001
+    100124: Bip001 1
+    100126: Bip001 10
+    100128: Bip001 11
+    100130: Bip001 12
+    100132: Bip001 13
+    100134: Bip001 14
+    100136: Bip001 15
+    100138: Bip001 2
+    100140: Bip001 3
+    100142: Bip001 4
+    100144: Bip001 5
+    100146: Bip001 6
+    100148: Bip001 7
+    100150: Bip001 8
+    100152: Bip001 9
+    100154: Bip001 Footsteps
+    100156: Bip001 Footsteps 1
+    100158: Bip001 Footsteps 2
+    100160: Bip001 Head
+    100162: Bip001 Head 1
+    100164: Bip001 Head 10
+    100166: Bip001 Head 11
+    100168: Bip001 Head 12
+    100170: Bip001 Head 13
+    100172: Bip001 Head 14
+    100174: Bip001 Head 15
+    100176: Bip001 Head 2
+    100178: Bip001 Head 3
+    100180: Bip001 Head 4
+    100182: Bip001 Head 5
+    100184: Bip001 Head 6
+    100186: Bip001 Head 7
+    100188: Bip001 Head 8
+    100190: Bip001 Head 9
+    100192: Bip001 HeadNub
+    100194: Bip001 HeadNub 1
+    100196: Bip001 HeadNub 10
+    100198: Bip001 HeadNub 11
+    100200: Bip001 HeadNub 2
+    100202: Bip001 HeadNub 3
+    100204: Bip001 HeadNub 4
+    100206: Bip001 HeadNub 5
+    100208: Bip001 HeadNub 6
+    100210: Bip001 HeadNub 7
+    100212: Bip001 HeadNub 8
+    100214: Bip001 HeadNub 9
+    100216: Bip001 L Calf
+    100218: Bip001 L Calf 1
+    100220: Bip001 L Calf 10
+    100222: Bip001 L Calf 11
+    100224: Bip001 L Calf 2
+    100226: Bip001 L Calf 3
+    100228: Bip001 L Calf 4
+    100230: Bip001 L Calf 5
+    100232: Bip001 L Calf 6
+    100234: Bip001 L Calf 7
+    100236: Bip001 L Calf 8
+    100238: Bip001 L Calf 9
+    100240: Bip001 L Clavicle
+    100242: Bip001 L Clavicle 1
+    100244: Bip001 L Clavicle 10
+    100246: Bip001 L Clavicle 11
+    100248: Bip001 L Clavicle 2
+    100250: Bip001 L Clavicle 3
+    100252: Bip001 L Clavicle 4
+    100254: Bip001 L Clavicle 5
+    100256: Bip001 L Clavicle 6
+    100258: Bip001 L Clavicle 7
+    100260: Bip001 L Clavicle 8
+    100262: Bip001 L Clavicle 9
+    100264: Bip001 L Finger0
+    100266: Bip001 L Finger0 1
+    100268: Bip001 L Finger0 10
+    100270: Bip001 L Finger0 11
+    100272: Bip001 L Finger0 2
+    100274: Bip001 L Finger0 3
+    100276: Bip001 L Finger0 4
+    100278: Bip001 L Finger0 5
+    100280: Bip001 L Finger0 6
+    100282: Bip001 L Finger0 7
+    100284: Bip001 L Finger0 8
+    100286: Bip001 L Finger0 9
+    100288: Bip001 L Finger01
+    100290: Bip001 L Finger01 1
+    100292: Bip001 L Finger01 10
+    100294: Bip001 L Finger01 11
+    100296: Bip001 L Finger01 2
+    100298: Bip001 L Finger01 3
+    100300: Bip001 L Finger01 4
+    100302: Bip001 L Finger01 5
+    100304: Bip001 L Finger01 6
+    100306: Bip001 L Finger01 7
+    100308: Bip001 L Finger01 8
+    100310: Bip001 L Finger01 9
+    100312: Bip001 L Finger02
+    100314: Bip001 L Finger02 1
+    100316: Bip001 L Finger02 10
+    100318: Bip001 L Finger02 11
+    100320: Bip001 L Finger02 2
+    100322: Bip001 L Finger02 3
+    100324: Bip001 L Finger02 4
+    100326: Bip001 L Finger02 5
+    100328: Bip001 L Finger02 6
+    100330: Bip001 L Finger02 7
+    100332: Bip001 L Finger02 8
+    100334: Bip001 L Finger02 9
+    100336: Bip001 L Finger0Nub
+    100338: Bip001 L Finger0Nub 1
+    100340: Bip001 L Finger0Nub 10
+    100342: Bip001 L Finger0Nub 11
+    100344: Bip001 L Finger0Nub 2
+    100346: Bip001 L Finger0Nub 3
+    100348: Bip001 L Finger0Nub 4
+    100350: Bip001 L Finger0Nub 5
+    100352: Bip001 L Finger0Nub 6
+    100354: Bip001 L Finger0Nub 7
+    100356: Bip001 L Finger0Nub 8
+    100358: Bip001 L Finger0Nub 9
+    100360: Bip001 L Finger1
+    100362: Bip001 L Finger1 1
+    100364: Bip001 L Finger1 10
+    100366: Bip001 L Finger1 11
+    100368: Bip001 L Finger1 2
+    100370: Bip001 L Finger1 3
+    100372: Bip001 L Finger1 4
+    100374: Bip001 L Finger1 5
+    100376: Bip001 L Finger1 6
+    100378: Bip001 L Finger1 7
+    100380: Bip001 L Finger1 8
+    100382: Bip001 L Finger1 9
+    100384: Bip001 L Finger11
+    100386: Bip001 L Finger11 1
+    100388: Bip001 L Finger11 10
+    100390: Bip001 L Finger11 11
+    100392: Bip001 L Finger11 2
+    100394: Bip001 L Finger11 3
+    100396: Bip001 L Finger11 4
+    100398: Bip001 L Finger11 5
+    100400: Bip001 L Finger11 6
+    100402: Bip001 L Finger11 7
+    100404: Bip001 L Finger11 8
+    100406: Bip001 L Finger11 9
+    100408: Bip001 L Finger12
+    100410: Bip001 L Finger12 1
+    100412: Bip001 L Finger12 10
+    100414: Bip001 L Finger12 11
+    100416: Bip001 L Finger12 2
+    100418: Bip001 L Finger12 3
+    100420: Bip001 L Finger12 4
+    100422: Bip001 L Finger12 5
+    100424: Bip001 L Finger12 6
+    100426: Bip001 L Finger12 7
+    100428: Bip001 L Finger12 8
+    100430: Bip001 L Finger12 9
+    100432: Bip001 L Finger1Nub
+    100434: Bip001 L Finger1Nub 1
+    100436: Bip001 L Finger1Nub 10
+    100438: Bip001 L Finger1Nub 11
+    100440: Bip001 L Finger1Nub 2
+    100442: Bip001 L Finger1Nub 3
+    100444: Bip001 L Finger1Nub 4
+    100446: Bip001 L Finger1Nub 5
+    100448: Bip001 L Finger1Nub 6
+    100450: Bip001 L Finger1Nub 7
+    100452: Bip001 L Finger1Nub 8
+    100454: Bip001 L Finger1Nub 9
+    100456: Bip001 L Finger2
+    100458: Bip001 L Finger2 1
+    100460: Bip001 L Finger2 10
+    100462: Bip001 L Finger2 11
+    100464: Bip001 L Finger2 2
+    100466: Bip001 L Finger2 3
+    100468: Bip001 L Finger2 4
+    100470: Bip001 L Finger2 5
+    100472: Bip001 L Finger2 6
+    100474: Bip001 L Finger2 7
+    100476: Bip001 L Finger2 8
+    100478: Bip001 L Finger2 9
+    100480: Bip001 L Finger21
+    100482: Bip001 L Finger21 1
+    100484: Bip001 L Finger21 10
+    100486: Bip001 L Finger21 11
+    100488: Bip001 L Finger21 2
+    100490: Bip001 L Finger21 3
+    100492: Bip001 L Finger21 4
+    100494: Bip001 L Finger21 5
+    100496: Bip001 L Finger21 6
+    100498: Bip001 L Finger21 7
+    100500: Bip001 L Finger21 8
+    100502: Bip001 L Finger21 9
+    100504: Bip001 L Finger22
+    100506: Bip001 L Finger22 1
+    100508: Bip001 L Finger22 10
+    100510: Bip001 L Finger22 11
+    100512: Bip001 L Finger22 2
+    100514: Bip001 L Finger22 3
+    100516: Bip001 L Finger22 4
+    100518: Bip001 L Finger22 5
+    100520: Bip001 L Finger22 6
+    100522: Bip001 L Finger22 7
+    100524: Bip001 L Finger22 8
+    100526: Bip001 L Finger22 9
+    100528: Bip001 L Finger2Nub
+    100530: Bip001 L Finger2Nub 1
+    100532: Bip001 L Finger2Nub 10
+    100534: Bip001 L Finger2Nub 11
+    100536: Bip001 L Finger2Nub 2
+    100538: Bip001 L Finger2Nub 3
+    100540: Bip001 L Finger2Nub 4
+    100542: Bip001 L Finger2Nub 5
+    100544: Bip001 L Finger2Nub 6
+    100546: Bip001 L Finger2Nub 7
+    100548: Bip001 L Finger2Nub 8
+    100550: Bip001 L Finger2Nub 9
+    100552: Bip001 L Finger3
+    100554: Bip001 L Finger3 1
+    100556: Bip001 L Finger3 10
+    100558: Bip001 L Finger3 11
+    100560: Bip001 L Finger3 2
+    100562: Bip001 L Finger3 3
+    100564: Bip001 L Finger3 4
+    100566: Bip001 L Finger3 5
+    100568: Bip001 L Finger3 6
+    100570: Bip001 L Finger3 7
+    100572: Bip001 L Finger3 8
+    100574: Bip001 L Finger3 9
+    100576: Bip001 L Finger31
+    100578: Bip001 L Finger31 1
+    100580: Bip001 L Finger31 10
+    100582: Bip001 L Finger31 11
+    100584: Bip001 L Finger31 2
+    100586: Bip001 L Finger31 3
+    100588: Bip001 L Finger31 4
+    100590: Bip001 L Finger31 5
+    100592: Bip001 L Finger31 6
+    100594: Bip001 L Finger31 7
+    100596: Bip001 L Finger31 8
+    100598: Bip001 L Finger31 9
+    100600: Bip001 L Finger32
+    100602: Bip001 L Finger32 1
+    100604: Bip001 L Finger32 10
+    100606: Bip001 L Finger32 11
+    100608: Bip001 L Finger32 2
+    100610: Bip001 L Finger32 3
+    100612: Bip001 L Finger32 4
+    100614: Bip001 L Finger32 5
+    100616: Bip001 L Finger32 6
+    100618: Bip001 L Finger32 7
+    100620: Bip001 L Finger32 8
+    100622: Bip001 L Finger32 9
+    100624: Bip001 L Finger3Nub
+    100626: Bip001 L Finger3Nub 1
+    100628: Bip001 L Finger3Nub 10
+    100630: Bip001 L Finger3Nub 11
+    100632: Bip001 L Finger3Nub 2
+    100634: Bip001 L Finger3Nub 3
+    100636: Bip001 L Finger3Nub 4
+    100638: Bip001 L Finger3Nub 5
+    100640: Bip001 L Finger3Nub 6
+    100642: Bip001 L Finger3Nub 7
+    100644: Bip001 L Finger3Nub 8
+    100646: Bip001 L Finger3Nub 9
+    100648: Bip001 L Finger4
+    100650: Bip001 L Finger4 1
+    100652: Bip001 L Finger4 10
+    100654: Bip001 L Finger4 11
+    100656: Bip001 L Finger4 2
+    100658: Bip001 L Finger4 3
+    100660: Bip001 L Finger4 4
+    100662: Bip001 L Finger4 5
+    100664: Bip001 L Finger4 6
+    100666: Bip001 L Finger4 7
+    100668: Bip001 L Finger4 8
+    100670: Bip001 L Finger4 9
+    100672: Bip001 L Finger41
+    100674: Bip001 L Finger41 1
+    100676: Bip001 L Finger41 10
+    100678: Bip001 L Finger41 11
+    100680: Bip001 L Finger41 2
+    100682: Bip001 L Finger41 3
+    100684: Bip001 L Finger41 4
+    100686: Bip001 L Finger41 5
+    100688: Bip001 L Finger41 6
+    100690: Bip001 L Finger41 7
+    100692: Bip001 L Finger41 8
+    100694: Bip001 L Finger41 9
+    100696: Bip001 L Finger42
+    100698: Bip001 L Finger42 1
+    100700: Bip001 L Finger42 10
+    100702: Bip001 L Finger42 11
+    100704: Bip001 L Finger42 2
+    100706: Bip001 L Finger42 3
+    100708: Bip001 L Finger42 4
+    100710: Bip001 L Finger42 5
+    100712: Bip001 L Finger42 6
+    100714: Bip001 L Finger42 7
+    100716: Bip001 L Finger42 8
+    100718: Bip001 L Finger42 9
+    100720: Bip001 L Finger4Nub
+    100722: Bip001 L Finger4Nub 1
+    100724: Bip001 L Finger4Nub 10
+    100726: Bip001 L Finger4Nub 11
+    100728: Bip001 L Finger4Nub 2
+    100730: Bip001 L Finger4Nub 3
+    100732: Bip001 L Finger4Nub 4
+    100734: Bip001 L Finger4Nub 5
+    100736: Bip001 L Finger4Nub 6
+    100738: Bip001 L Finger4Nub 7
+    100740: Bip001 L Finger4Nub 8
+    100742: Bip001 L Finger4Nub 9
+    100744: Bip001 L Foot
+    100746: Bip001 L Foot 1
+    100748: Bip001 L Foot 10
+    100750: Bip001 L Foot 11
+    100752: Bip001 L Foot 12
+    100754: Bip001 L Foot 13
+    100756: Bip001 L Foot 14
+    100758: Bip001 L Foot 15
+    100760: Bip001 L Foot 2
+    100762: Bip001 L Foot 3
+    100764: Bip001 L Foot 4
+    100766: Bip001 L Foot 5
+    100768: Bip001 L Foot 6
+    100770: Bip001 L Foot 7
+    100772: Bip001 L Foot 8
+    100774: Bip001 L Foot 9
+    100776: Bip001 L Forearm
+    100778: Bip001 L Forearm 1
+    100780: Bip001 L Forearm 10
+    100782: Bip001 L Forearm 11
+    100784: Bip001 L Forearm 2
+    100786: Bip001 L Forearm 3
+    100788: Bip001 L Forearm 4
+    100790: Bip001 L Forearm 5
+    100792: Bip001 L Forearm 6
+    100794: Bip001 L Forearm 7
+    100796: Bip001 L Forearm 8
+    100798: Bip001 L Forearm 9
+    100800: Bip001 L Hand
+    100802: Bip001 L Hand 1
+    100804: Bip001 L Hand 10
+    100806: Bip001 L Hand 11
+    100808: Bip001 L Hand 12
+    100810: Bip001 L Hand 13
+    100812: Bip001 L Hand 14
+    100814: Bip001 L Hand 15
+    100816: Bip001 L Hand 2
+    100818: Bip001 L Hand 3
+    100820: Bip001 L Hand 4
+    100822: Bip001 L Hand 5
+    100824: Bip001 L Hand 6
+    100826: Bip001 L Hand 7
+    100828: Bip001 L Hand 8
+    100830: Bip001 L Hand 9
+    100832: Bip001 L Thigh
+    100834: Bip001 L Thigh 1
+    100836: Bip001 L Thigh 10
+    100838: Bip001 L Thigh 11
+    100840: Bip001 L Thigh 2
+    100842: Bip001 L Thigh 3
+    100844: Bip001 L Thigh 4
+    100846: Bip001 L Thigh 5
+    100848: Bip001 L Thigh 6
+    100850: Bip001 L Thigh 7
+    100852: Bip001 L Thigh 8
+    100854: Bip001 L Thigh 9
+    100856: Bip001 L Toe0
+    100858: Bip001 L Toe0 1
+    100860: Bip001 L Toe0 10
+    100862: Bip001 L Toe0 11
+    100864: Bip001 L Toe0 12
+    100866: Bip001 L Toe0 13
+    100868: Bip001 L Toe0 14
+    100870: Bip001 L Toe0 15
+    100872: Bip001 L Toe0 2
+    100874: Bip001 L Toe0 3
+    100876: Bip001 L Toe0 4
+    100878: Bip001 L Toe0 5
+    100880: Bip001 L Toe0 6
+    100882: Bip001 L Toe0 7
+    100884: Bip001 L Toe0 8
+    100886: Bip001 L Toe0 9
+    100888: Bip001 L Toe0Nub
+    100890: Bip001 L Toe0Nub 1
+    100892: Bip001 L Toe0Nub 10
+    100894: Bip001 L Toe0Nub 11
+    100896: Bip001 L Toe0Nub 2
+    100898: Bip001 L Toe0Nub 3
+    100900: Bip001 L Toe0Nub 4
+    100902: Bip001 L Toe0Nub 5
+    100904: Bip001 L Toe0Nub 6
+    100906: Bip001 L Toe0Nub 7
+    100908: Bip001 L Toe0Nub 8
+    100910: Bip001 L Toe0Nub 9
+    100912: Bip001 L UpperArm
+    100914: Bip001 L UpperArm 1
+    100916: Bip001 L UpperArm 10
+    100918: Bip001 L UpperArm 11
+    100920: Bip001 L UpperArm 2
+    100922: Bip001 L UpperArm 3
+    100924: Bip001 L UpperArm 4
+    100926: Bip001 L UpperArm 5
+    100928: Bip001 L UpperArm 6
+    100930: Bip001 L UpperArm 7
+    100932: Bip001 L UpperArm 8
+    100934: Bip001 L UpperArm 9
+    100936: Bip001 Neck
+    100938: Bip001 Neck 1
+    100940: Bip001 Neck 10
+    100942: Bip001 Neck 11
+    100944: Bip001 Neck 12
+    100946: Bip001 Neck 13
+    100948: Bip001 Neck 14
+    100950: Bip001 Neck 15
+    100952: Bip001 Neck 2
+    100954: Bip001 Neck 3
+    100956: Bip001 Neck 4
+    100958: Bip001 Neck 5
+    100960: Bip001 Neck 6
+    100962: Bip001 Neck 7
+    100964: Bip001 Neck 8
+    100966: Bip001 Neck 9
+    100968: Bip001 Pelvis
+    100970: Bip001 Pelvis 1
+    100972: Bip001 Pelvis 10
+    100974: Bip001 Pelvis 11
+    100976: Bip001 Pelvis 2
+    100978: Bip001 Pelvis 3
+    100980: Bip001 Pelvis 4
+    100982: Bip001 Pelvis 5
+    100984: Bip001 Pelvis 6
+    100986: Bip001 Pelvis 7
+    100988: Bip001 Pelvis 8
+    100990: Bip001 Pelvis 9
+    100992: Bip001 Prop1
+    100994: Bip001 Prop1 1
+    100996: Bip001 Prop1 10
+    100998: Bip001 Prop1 11
+    101000: Bip001 Prop1 12
+    101002: Bip001 Prop1 13
+    101004: Bip001 Prop1 14
+    101006: Bip001 Prop1 15
+    101008: Bip001 Prop1 2
+    101010: Bip001 Prop1 3
+    101012: Bip001 Prop1 4
+    101014: Bip001 Prop1 5
+    101016: Bip001 Prop1 6
+    101018: Bip001 Prop1 7
+    101020: Bip001 Prop1 8
+    101022: Bip001 Prop1 9
+    101024: Bip001 Prop2
+    101026: Bip001 Prop2 1
+    101028: Bip001 Prop2 10
+    101030: Bip001 Prop2 11
+    101032: Bip001 Prop2 12
+    101034: Bip001 Prop2 13
+    101036: Bip001 Prop2 14
+    101038: Bip001 Prop2 15
+    101040: Bip001 Prop2 2
+    101042: Bip001 Prop2 3
+    101044: Bip001 Prop2 4
+    101046: Bip001 Prop2 5
+    101048: Bip001 Prop2 6
+    101050: Bip001 Prop2 7
+    101052: Bip001 Prop2 8
+    101054: Bip001 Prop2 9
+    101056: Bip001 R Calf
+    101058: Bip001 R Calf 1
+    101060: Bip001 R Calf 10
+    101062: Bip001 R Calf 11
+    101064: Bip001 R Calf 2
+    101066: Bip001 R Calf 3
+    101068: Bip001 R Calf 4
+    101070: Bip001 R Calf 5
+    101072: Bip001 R Calf 6
+    101074: Bip001 R Calf 7
+    101076: Bip001 R Calf 8
+    101078: Bip001 R Calf 9
+    101080: Bip001 R Clavicle
+    101082: Bip001 R Clavicle 1
+    101084: Bip001 R Clavicle 10
+    101086: Bip001 R Clavicle 11
+    101088: Bip001 R Clavicle 2
+    101090: Bip001 R Clavicle 3
+    101092: Bip001 R Clavicle 4
+    101094: Bip001 R Clavicle 5
+    101096: Bip001 R Clavicle 6
+    101098: Bip001 R Clavicle 7
+    101100: Bip001 R Clavicle 8
+    101102: Bip001 R Clavicle 9
+    101104: Bip001 R Finger0
+    101106: Bip001 R Finger0 1
+    101108: Bip001 R Finger0 10
+    101110: Bip001 R Finger0 11
+    101112: Bip001 R Finger0 2
+    101114: Bip001 R Finger0 3
+    101116: Bip001 R Finger0 4
+    101118: Bip001 R Finger0 5
+    101120: Bip001 R Finger0 6
+    101122: Bip001 R Finger0 7
+    101124: Bip001 R Finger0 8
+    101126: Bip001 R Finger0 9
+    101128: Bip001 R Finger01
+    101130: Bip001 R Finger01 1
+    101132: Bip001 R Finger01 10
+    101134: Bip001 R Finger01 11
+    101136: Bip001 R Finger01 2
+    101138: Bip001 R Finger01 3
+    101140: Bip001 R Finger01 4
+    101142: Bip001 R Finger01 5
+    101144: Bip001 R Finger01 6
+    101146: Bip001 R Finger01 7
+    101148: Bip001 R Finger01 8
+    101150: Bip001 R Finger01 9
+    101152: Bip001 R Finger02
+    101154: Bip001 R Finger02 1
+    101156: Bip001 R Finger02 10
+    101158: Bip001 R Finger02 11
+    101160: Bip001 R Finger02 2
+    101162: Bip001 R Finger02 3
+    101164: Bip001 R Finger02 4
+    101166: Bip001 R Finger02 5
+    101168: Bip001 R Finger02 6
+    101170: Bip001 R Finger02 7
+    101172: Bip001 R Finger02 8
+    101174: Bip001 R Finger02 9
+    101176: Bip001 R Finger0Nub
+    101178: Bip001 R Finger0Nub 1
+    101180: Bip001 R Finger0Nub 10
+    101182: Bip001 R Finger0Nub 11
+    101184: Bip001 R Finger0Nub 2
+    101186: Bip001 R Finger0Nub 3
+    101188: Bip001 R Finger0Nub 4
+    101190: Bip001 R Finger0Nub 5
+    101192: Bip001 R Finger0Nub 6
+    101194: Bip001 R Finger0Nub 7
+    101196: Bip001 R Finger0Nub 8
+    101198: Bip001 R Finger0Nub 9
+    101200: Bip001 R Finger1
+    101202: Bip001 R Finger1 1
+    101204: Bip001 R Finger1 10
+    101206: Bip001 R Finger1 11
+    101208: Bip001 R Finger1 2
+    101210: Bip001 R Finger1 3
+    101212: Bip001 R Finger1 4
+    101214: Bip001 R Finger1 5
+    101216: Bip001 R Finger1 6
+    101218: Bip001 R Finger1 7
+    101220: Bip001 R Finger1 8
+    101222: Bip001 R Finger1 9
+    101224: Bip001 R Finger11
+    101226: Bip001 R Finger11 1
+    101228: Bip001 R Finger11 10
+    101230: Bip001 R Finger11 11
+    101232: Bip001 R Finger11 2
+    101234: Bip001 R Finger11 3
+    101236: Bip001 R Finger11 4
+    101238: Bip001 R Finger11 5
+    101240: Bip001 R Finger11 6
+    101242: Bip001 R Finger11 7
+    101244: Bip001 R Finger11 8
+    101246: Bip001 R Finger11 9
+    101248: Bip001 R Finger12
+    101250: Bip001 R Finger12 1
+    101252: Bip001 R Finger12 10
+    101254: Bip001 R Finger12 11
+    101256: Bip001 R Finger12 2
+    101258: Bip001 R Finger12 3
+    101260: Bip001 R Finger12 4
+    101262: Bip001 R Finger12 5
+    101264: Bip001 R Finger12 6
+    101266: Bip001 R Finger12 7
+    101268: Bip001 R Finger12 8
+    101270: Bip001 R Finger12 9
+    101272: Bip001 R Finger1Nub
+    101274: Bip001 R Finger1Nub 1
+    101276: Bip001 R Finger1Nub 10
+    101278: Bip001 R Finger1Nub 11
+    101280: Bip001 R Finger1Nub 2
+    101282: Bip001 R Finger1Nub 3
+    101284: Bip001 R Finger1Nub 4
+    101286: Bip001 R Finger1Nub 5
+    101288: Bip001 R Finger1Nub 6
+    101290: Bip001 R Finger1Nub 7
+    101292: Bip001 R Finger1Nub 8
+    101294: Bip001 R Finger1Nub 9
+    101296: Bip001 R Finger2
+    101298: Bip001 R Finger2 1
+    101300: Bip001 R Finger2 10
+    101302: Bip001 R Finger2 11
+    101304: Bip001 R Finger2 2
+    101306: Bip001 R Finger2 3
+    101308: Bip001 R Finger2 4
+    101310: Bip001 R Finger2 5
+    101312: Bip001 R Finger2 6
+    101314: Bip001 R Finger2 7
+    101316: Bip001 R Finger2 8
+    101318: Bip001 R Finger2 9
+    101320: Bip001 R Finger21
+    101322: Bip001 R Finger21 1
+    101324: Bip001 R Finger21 10
+    101326: Bip001 R Finger21 11
+    101328: Bip001 R Finger21 2
+    101330: Bip001 R Finger21 3
+    101332: Bip001 R Finger21 4
+    101334: Bip001 R Finger21 5
+    101336: Bip001 R Finger21 6
+    101338: Bip001 R Finger21 7
+    101340: Bip001 R Finger21 8
+    101342: Bip001 R Finger21 9
+    101344: Bip001 R Finger22
+    101346: Bip001 R Finger22 1
+    101348: Bip001 R Finger22 10
+    101350: Bip001 R Finger22 11
+    101352: Bip001 R Finger22 2
+    101354: Bip001 R Finger22 3
+    101356: Bip001 R Finger22 4
+    101358: Bip001 R Finger22 5
+    101360: Bip001 R Finger22 6
+    101362: Bip001 R Finger22 7
+    101364: Bip001 R Finger22 8
+    101366: Bip001 R Finger22 9
+    101368: Bip001 R Finger2Nub
+    101370: Bip001 R Finger2Nub 1
+    101372: Bip001 R Finger2Nub 10
+    101374: Bip001 R Finger2Nub 11
+    101376: Bip001 R Finger2Nub 2
+    101378: Bip001 R Finger2Nub 3
+    101380: Bip001 R Finger2Nub 4
+    101382: Bip001 R Finger2Nub 5
+    101384: Bip001 R Finger2Nub 6
+    101386: Bip001 R Finger2Nub 7
+    101388: Bip001 R Finger2Nub 8
+    101390: Bip001 R Finger2Nub 9
+    101392: Bip001 R Finger3
+    101394: Bip001 R Finger3 1
+    101396: Bip001 R Finger3 10
+    101398: Bip001 R Finger3 11
+    101400: Bip001 R Finger3 2
+    101402: Bip001 R Finger3 3
+    101404: Bip001 R Finger3 4
+    101406: Bip001 R Finger3 5
+    101408: Bip001 R Finger3 6
+    101410: Bip001 R Finger3 7
+    101412: Bip001 R Finger3 8
+    101414: Bip001 R Finger3 9
+    101416: Bip001 R Finger31
+    101418: Bip001 R Finger31 1
+    101420: Bip001 R Finger31 10
+    101422: Bip001 R Finger31 11
+    101424: Bip001 R Finger31 2
+    101426: Bip001 R Finger31 3
+    101428: Bip001 R Finger31 4
+    101430: Bip001 R Finger31 5
+    101432: Bip001 R Finger31 6
+    101434: Bip001 R Finger31 7
+    101436: Bip001 R Finger31 8
+    101438: Bip001 R Finger31 9
+    101440: Bip001 R Finger32
+    101442: Bip001 R Finger32 1
+    101444: Bip001 R Finger32 10
+    101446: Bip001 R Finger32 11
+    101448: Bip001 R Finger32 2
+    101450: Bip001 R Finger32 3
+    101452: Bip001 R Finger32 4
+    101454: Bip001 R Finger32 5
+    101456: Bip001 R Finger32 6
+    101458: Bip001 R Finger32 7
+    101460: Bip001 R Finger32 8
+    101462: Bip001 R Finger32 9
+    101464: Bip001 R Finger3Nub
+    101466: Bip001 R Finger3Nub 1
+    101468: Bip001 R Finger3Nub 10
+    101470: Bip001 R Finger3Nub 11
+    101472: Bip001 R Finger3Nub 2
+    101474: Bip001 R Finger3Nub 3
+    101476: Bip001 R Finger3Nub 4
+    101478: Bip001 R Finger3Nub 5
+    101480: Bip001 R Finger3Nub 6
+    101482: Bip001 R Finger3Nub 7
+    101484: Bip001 R Finger3Nub 8
+    101486: Bip001 R Finger3Nub 9
+    101488: Bip001 R Finger4
+    101490: Bip001 R Finger4 1
+    101492: Bip001 R Finger4 10
+    101494: Bip001 R Finger4 11
+    101496: Bip001 R Finger4 2
+    101498: Bip001 R Finger4 3
+    101500: Bip001 R Finger4 4
+    101502: Bip001 R Finger4 5
+    101504: Bip001 R Finger4 6
+    101506: Bip001 R Finger4 7
+    101508: Bip001 R Finger4 8
+    101510: Bip001 R Finger4 9
+    101512: Bip001 R Finger41
+    101514: Bip001 R Finger41 1
+    101516: Bip001 R Finger41 10
+    101518: Bip001 R Finger41 11
+    101520: Bip001 R Finger41 2
+    101522: Bip001 R Finger41 3
+    101524: Bip001 R Finger41 4
+    101526: Bip001 R Finger41 5
+    101528: Bip001 R Finger41 6
+    101530: Bip001 R Finger41 7
+    101532: Bip001 R Finger41 8
+    101534: Bip001 R Finger41 9
+    101536: Bip001 R Finger42
+    101538: Bip001 R Finger42 1
+    101540: Bip001 R Finger42 10
+    101542: Bip001 R Finger42 11
+    101544: Bip001 R Finger42 2
+    101546: Bip001 R Finger42 3
+    101548: Bip001 R Finger42 4
+    101550: Bip001 R Finger42 5
+    101552: Bip001 R Finger42 6
+    101554: Bip001 R Finger42 7
+    101556: Bip001 R Finger42 8
+    101558: Bip001 R Finger42 9
+    101560: Bip001 R Finger4Nub
+    101562: Bip001 R Finger4Nub 1
+    101564: Bip001 R Finger4Nub 10
+    101566: Bip001 R Finger4Nub 11
+    101568: Bip001 R Finger4Nub 2
+    101570: Bip001 R Finger4Nub 3
+    101572: Bip001 R Finger4Nub 4
+    101574: Bip001 R Finger4Nub 5
+    101576: Bip001 R Finger4Nub 6
+    101578: Bip001 R Finger4Nub 7
+    101580: Bip001 R Finger4Nub 8
+    101582: Bip001 R Finger4Nub 9
+    101584: Bip001 R Foot
+    101586: Bip001 R Foot 1
+    101588: Bip001 R Foot 10
+    101590: Bip001 R Foot 11
+    101592: Bip001 R Foot 12
+    101594: Bip001 R Foot 13
+    101596: Bip001 R Foot 14
+    101598: Bip001 R Foot 15
+    101600: Bip001 R Foot 2
+    101602: Bip001 R Foot 3
+    101604: Bip001 R Foot 4
+    101606: Bip001 R Foot 5
+    101608: Bip001 R Foot 6
+    101610: Bip001 R Foot 7
+    101612: Bip001 R Foot 8
+    101614: Bip001 R Foot 9
+    101616: Bip001 R Forearm
+    101618: Bip001 R Forearm 1
+    101620: Bip001 R Forearm 10
+    101622: Bip001 R Forearm 11
+    101624: Bip001 R Forearm 2
+    101626: Bip001 R Forearm 3
+    101628: Bip001 R Forearm 4
+    101630: Bip001 R Forearm 5
+    101632: Bip001 R Forearm 6
+    101634: Bip001 R Forearm 7
+    101636: Bip001 R Forearm 8
+    101638: Bip001 R Forearm 9
+    101640: Bip001 R Hand
+    101642: Bip001 R Hand 1
+    101644: Bip001 R Hand 10
+    101646: Bip001 R Hand 11
+    101648: Bip001 R Hand 12
+    101650: Bip001 R Hand 13
+    101652: Bip001 R Hand 14
+    101654: Bip001 R Hand 15
+    101656: Bip001 R Hand 2
+    101658: Bip001 R Hand 3
+    101660: Bip001 R Hand 4
+    101662: Bip001 R Hand 5
+    101664: Bip001 R Hand 6
+    101666: Bip001 R Hand 7
+    101668: Bip001 R Hand 8
+    101670: Bip001 R Hand 9
+    101672: Bip001 R Thigh
+    101674: Bip001 R Thigh 1
+    101676: Bip001 R Thigh 10
+    101678: Bip001 R Thigh 11
+    101680: Bip001 R Thigh 2
+    101682: Bip001 R Thigh 3
+    101684: Bip001 R Thigh 4
+    101686: Bip001 R Thigh 5
+    101688: Bip001 R Thigh 6
+    101690: Bip001 R Thigh 7
+    101692: Bip001 R Thigh 8
+    101694: Bip001 R Thigh 9
+    101696: Bip001 R Toe0
+    101698: Bip001 R Toe0 1
+    101700: Bip001 R Toe0 10
+    101702: Bip001 R Toe0 11
+    101704: Bip001 R Toe0 12
+    101706: Bip001 R Toe0 13
+    101708: Bip001 R Toe0 14
+    101710: Bip001 R Toe0 15
+    101712: Bip001 R Toe0 2
+    101714: Bip001 R Toe0 3
+    101716: Bip001 R Toe0 4
+    101718: Bip001 R Toe0 5
+    101720: Bip001 R Toe0 6
+    101722: Bip001 R Toe0 7
+    101724: Bip001 R Toe0 8
+    101726: Bip001 R Toe0 9
+    101728: Bip001 R Toe0Nub
+    101730: Bip001 R Toe0Nub 1
+    101732: Bip001 R Toe0Nub 10
+    101734: Bip001 R Toe0Nub 11
+    101736: Bip001 R Toe0Nub 2
+    101738: Bip001 R Toe0Nub 3
+    101740: Bip001 R Toe0Nub 4
+    101742: Bip001 R Toe0Nub 5
+    101744: Bip001 R Toe0Nub 6
+    101746: Bip001 R Toe0Nub 7
+    101748: Bip001 R Toe0Nub 8
+    101750: Bip001 R Toe0Nub 9
+    101752: Bip001 R UpperArm
+    101754: Bip001 R UpperArm 1
+    101756: Bip001 R UpperArm 10
+    101758: Bip001 R UpperArm 11
+    101760: Bip001 R UpperArm 2
+    101762: Bip001 R UpperArm 3
+    101764: Bip001 R UpperArm 4
+    101766: Bip001 R UpperArm 5
+    101768: Bip001 R UpperArm 6
+    101770: Bip001 R UpperArm 7
+    101772: Bip001 R UpperArm 8
+    101774: Bip001 R UpperArm 9
+    101776: Bip001 Spine
+    101778: Bip001 Spine 1
+    101780: Bip001 Spine 10
+    101782: Bip001 Spine 11
+    101784: Bip001 Spine 2
+    101786: Bip001 Spine 3
+    101788: Bip001 Spine 4
+    101790: Bip001 Spine 5
+    101792: Bip001 Spine 6
+    101794: Bip001 Spine 7
+    101796: Bip001 Spine 8
+    101798: Bip001 Spine 9
+    101800: Bip001 Spine1
+    101802: Bip001 Spine1 1
+    101804: Bip001 Spine1 10
+    101806: Bip001 Spine1 11
+    101808: Bip001 Spine1 12
+    101810: Bip001 Spine1 13
+    101812: Bip001 Spine1 2
+    101814: Bip001 Spine1 3
+    101816: Bip001 Spine1 4
+    101818: Bip001 Spine1 5
+    101820: Bip001 Spine1 6
+    101822: Bip001 Spine1 7
+    101824: Bip001 Spine1 8
+    101826: Bip001 Spine1 9
+    101828: Bip001 Spine2
+    101830: Bip001 Spine2 1
+    101832: Bip001 Spine2 10
+    101834: Bip001 Spine2 11
+    101836: Bip001 Spine2 2
+    101838: Bip001 Spine2 3
+    101840: Bip001 Spine2 4
+    101842: Bip001 Spine2 5
+    101844: Bip001 Spine2 6
+    101846: Bip001 Spine2 7
+    101848: Bip001 Spine2 8
+    101850: Bip001 Spine2 9
+    101852: Black Circle
+    101854: Blast
+    101856: Body
+    101858: Body 1
+    101860: Body 10
+    101862: Body 11
+    101864: Body 12
+    101866: Body 13
+    101868: Body 14
+    101870: Body 15
+    101872: Body 2
+    101874: Body 3
+    101876: Body 4
+    101878: Body 5
+    101880: Body 6
+    101882: Body 7
+    101884: Body 8
+    101886: Body 9
+    101888: Bone001
+    101890: Bone001 1
+    101892: Bone001 10
+    101894: Bone001 11
+    101896: Bone001 2
+    101898: Bone001 3
+    101900: Bone001 4
+    101902: Bone001 5
+    101904: Bone001 6
+    101906: Bone001 7
+    101908: Bone001 8
+    101910: Bone001 9
+    101912: Bone001(mirrored)
+    101914: Bone001(mirrored) 1
+    101916: Bone001(mirrored) 10
+    101918: Bone001(mirrored) 11
+    101920: Bone001(mirrored) 2
+    101922: Bone001(mirrored) 3
+    101924: Bone001(mirrored) 4
+    101926: Bone001(mirrored) 5
+    101928: Bone001(mirrored) 6
+    101930: Bone001(mirrored) 7
+    101932: Bone001(mirrored) 8
+    101934: Bone001(mirrored) 9
+    101936: Bone002
+    101938: Bone002 1
+    101940: Bone002 10
+    101942: Bone002 11
+    101944: Bone002 2
+    101946: Bone002 3
+    101948: Bone002 4
+    101950: Bone002 5
+    101952: Bone002 6
+    101954: Bone002 7
+    101956: Bone002 8
+    101958: Bone002 9
+    101960: Bone002(mirrored)
+    101962: Bone002(mirrored) 1
+    101964: Bone002(mirrored) 10
+    101966: Bone002(mirrored) 11
+    101968: Bone002(mirrored) 2
+    101970: Bone002(mirrored) 3
+    101972: Bone002(mirrored) 4
+    101974: Bone002(mirrored) 5
+    101976: Bone002(mirrored) 6
+    101978: Bone002(mirrored) 7
+    101980: Bone002(mirrored) 8
+    101982: Bone002(mirrored) 9
+    101984: Bone003
+    101986: Bone003 1
+    101988: Bone003 10
+    101990: Bone003 11
+    101992: Bone003 2
+    101994: Bone003 3
+    101996: Bone003 4
+    101998: Bone003 5
+    102000: Bone003 6
+    102002: Bone003 7
+    102004: Bone003 8
+    102006: Bone003 9
+    102008: Bone003(mirrored)
+    102010: Bone003(mirrored) 1
+    102012: Bone003(mirrored) 10
+    102014: Bone003(mirrored) 11
+    102016: Bone003(mirrored) 2
+    102018: Bone003(mirrored) 3
+    102020: Bone003(mirrored) 4
+    102022: Bone003(mirrored) 5
+    102024: Bone003(mirrored) 6
+    102026: Bone003(mirrored) 7
+    102028: Bone003(mirrored) 8
+    102030: Bone003(mirrored) 9
+    102032: Bone004
+    102034: Bone004 1
+    102036: Bone004 10
+    102038: Bone004 11
+    102040: Bone004 2
+    102042: Bone004 3
+    102044: Bone004 4
+    102046: Bone004 5
+    102048: Bone004 6
+    102050: Bone004 7
+    102052: Bone004 8
+    102054: Bone004 9
+    102056: Bone004(mirrored)
+    102058: Bone004(mirrored) 1
+    102060: Bone004(mirrored) 10
+    102062: Bone004(mirrored) 11
+    102064: Bone004(mirrored) 2
+    102066: Bone004(mirrored) 3
+    102068: Bone004(mirrored) 4
+    102070: Bone004(mirrored) 5
+    102072: Bone004(mirrored) 6
+    102074: Bone004(mirrored) 7
+    102076: Bone004(mirrored) 8
+    102078: Bone004(mirrored) 9
+    102080: Bone005
+    102082: Bone005 1
+    102084: Bone005 10
+    102086: Bone005 11
+    102088: Bone005 2
+    102090: Bone005 3
+    102092: Bone005 4
+    102094: Bone005 5
+    102096: Bone005 6
+    102098: Bone005 7
+    102100: Bone005 8
+    102102: Bone005 9
+    102104: Bone005(mirrored)
+    102106: Bone005(mirrored) 1
+    102108: Bone005(mirrored) 10
+    102110: Bone005(mirrored) 11
+    102112: Bone005(mirrored) 2
+    102114: Bone005(mirrored) 3
+    102116: Bone005(mirrored) 4
+    102118: Bone005(mirrored) 5
+    102120: Bone005(mirrored) 6
+    102122: Bone005(mirrored) 7
+    102124: Bone005(mirrored) 8
+    102126: Bone005(mirrored) 9
+    102128: Bone006
+    102130: Bone006 1
+    102132: Bone006 10
+    102134: Bone006 11
+    102136: Bone006 2
+    102138: Bone006 3
+    102140: Bone006 4
+    102142: Bone006 5
+    102144: Bone006 6
+    102146: Bone006 7
+    102148: Bone006 8
+    102150: Bone006 9
+    102152: Bone006(mirrored)
+    102154: Bone006(mirrored) 1
+    102156: Bone006(mirrored) 10
+    102158: Bone006(mirrored) 11
+    102160: Bone006(mirrored) 2
+    102162: Bone006(mirrored) 3
+    102164: Bone006(mirrored) 4
+    102166: Bone006(mirrored) 5
+    102168: Bone006(mirrored) 6
+    102170: Bone006(mirrored) 7
+    102172: Bone006(mirrored) 8
+    102174: Bone006(mirrored) 9
+    102176: Bone007
+    102178: Bone007 1
+    102180: Bone007 10
+    102182: Bone007 11
+    102184: Bone007 2
+    102186: Bone007 3
+    102188: Bone007 4
+    102190: Bone007 5
+    102192: Bone007 6
+    102194: Bone007 7
+    102196: Bone007 8
+    102198: Bone007 9
+    102200: Bone007(mirrored)
+    102202: Bone007(mirrored) 1
+    102204: Bone007(mirrored) 10
+    102206: Bone007(mirrored) 11
+    102208: Bone007(mirrored) 2
+    102210: Bone007(mirrored) 3
+    102212: Bone007(mirrored) 4
+    102214: Bone007(mirrored) 5
+    102216: Bone007(mirrored) 6
+    102218: Bone007(mirrored) 7
+    102220: Bone007(mirrored) 8
+    102222: Bone007(mirrored) 9
+    102224: Bone008
+    102226: Bone008 1
+    102228: Bone008 10
+    102230: Bone008 11
+    102232: Bone008 2
+    102234: Bone008 3
+    102236: Bone008 4
+    102238: Bone008 5
+    102240: Bone008 6
+    102242: Bone008 7
+    102244: Bone008 8
+    102246: Bone008 9
+    102248: Bone008(mirrored)
+    102250: Bone008(mirrored) 1
+    102252: Bone008(mirrored) 10
+    102254: Bone008(mirrored) 11
+    102256: Bone008(mirrored) 2
+    102258: Bone008(mirrored) 3
+    102260: Bone008(mirrored) 4
+    102262: Bone008(mirrored) 5
+    102264: Bone008(mirrored) 6
+    102266: Bone008(mirrored) 7
+    102268: Bone008(mirrored) 8
+    102270: Bone008(mirrored) 9
+    102272: Bone009
+    102274: Bone009 1
+    102276: Bone009 10
+    102278: Bone009 11
+    102280: Bone009 2
+    102282: Bone009 3
+    102284: Bone009 4
+    102286: Bone009 5
+    102288: Bone009 6
+    102290: Bone009 7
+    102292: Bone009 8
+    102294: Bone009 9
+    102296: Bone009(mirrored)
+    102298: Bone009(mirrored) 1
+    102300: Bone009(mirrored) 10
+    102302: Bone009(mirrored) 11
+    102304: Bone009(mirrored) 2
+    102306: Bone009(mirrored) 3
+    102308: Bone009(mirrored) 4
+    102310: Bone009(mirrored) 5
+    102312: Bone009(mirrored) 6
+    102314: Bone009(mirrored) 7
+    102316: Bone009(mirrored) 8
+    102318: Bone009(mirrored) 9
+    102320: Bone010
+    102322: Bone010 1
+    102324: Bone010 2
+    102326: Bone011
+    102328: Bone011 1
+    102330: Bone011 2
+    102332: Bone012
+    102334: Bone012 1
+    102336: Bone012 2
+    102338: Bone013
+    102340: Bone013 1
+    102342: Bone013 2
+    102344: Bone014
+    102346: Bone014 1
+    102348: Bone014 2
+    102350: Bone015
+    102352: Bone015 1
+    102354: Bone015 2
+    102356: Bone016
+    102358: Bone016 1
+    102360: Bone016 2
+    102362: Bone017
+    102364: Bone017 1
+    102366: Bone017 2
+    102368: Bone018
+    102370: Bone018 1
+    102372: Bone018 2
+    102374: Bone019
+    102376: Bone019 1
+    102378: Bone019 2
+    102380: Bone020
+    102382: Bone020 1
+    102384: Bone020 2
+    102386: Bone021
+    102388: Bone021 1
+    102390: Bone021 10
+    102392: Bone021 11
+    102394: Bone021 2
+    102396: Bone021 3
+    102398: Bone021 4
+    102400: Bone021 5
+    102402: Bone021 6
+    102404: Bone021 7
+    102406: Bone021 8
+    102408: Bone021 9
+    102410: Bone022
+    102412: Bone022 1
+    102414: Bone022 10
+    102416: Bone022 11
+    102418: Bone022 2
+    102420: Bone022 3
+    102422: Bone022 4
+    102424: Bone022 5
+    102426: Bone022 6
+    102428: Bone022 7
+    102430: Bone022 8
+    102432: Bone022 9
+    102434: Bone023
+    102436: Bone023 1
+    102438: Bone023 10
+    102440: Bone023 11
+    102442: Bone023 2
+    102444: Bone023 3
+    102446: Bone023 4
+    102448: Bone023 5
+    102450: Bone023 6
+    102452: Bone023 7
+    102454: Bone023 8
+    102456: Bone023 9
+    102458: Bone024
+    102460: Bone024 1
+    102462: Bone024 10
+    102464: Bone024 11
+    102466: Bone024 2
+    102468: Bone024 3
+    102470: Bone024 4
+    102472: Bone024 5
+    102474: Bone024 6
+    102476: Bone024 7
+    102478: Bone024 8
+    102480: Bone024 9
+    102482: Bone025
+    102484: Bone025 1
+    102486: Bone025 2
+    102488: Bone025 3
+    102490: Bone025 4
+    102492: Bone025 5
+    102494: Bone026
+    102496: Bone026 1
+    102498: Bone026 2
+    102500: Bone026 3
+    102502: Bone026 4
+    102504: Bone026 5
+    102506: Bone026 6
+    102508: Bone027
+    102510: Bone027 1
+    102512: Bone027 2
+    102514: Bone027 3
+    102516: Bone027 4
+    102518: Bone027 5
+    102520: Bone028
+    102522: Bone028 1
+    102524: Bone028 2
+    102526: Bone028 3
+    102528: Bone028 4
+    102530: Bone028 5
+    102532: Bone029
+    102534: Bone029 1
+    102536: Bone029 2
+    102538: Bone029 3
+    102540: Bone029 4
+    102542: Bone029 5
+    102544: Bone030
+    102546: Bone030 1
+    102548: Bone030 2
+    102550: Bone030 3
+    102552: Bone030 4
+    102554: Bone030 5
+    102556: Bone031
+    102558: Bone031 1
+    102560: Bone031 2
+    102562: Bone031 3
+    102564: Bone031 4
+    102566: Bone031 5
+    102568: Bone032
+    102570: Bone032 1
+    102572: Bone032 2
+    102574: Bone032 3
+    102576: Bone032 4
+    102578: Bone032 5
+    102580: Bone033
+    102582: Bone033 1
+    102584: Bone033 2
+    102586: Bone033 3
+    102588: Bone033 4
+    102590: Bone033 5
+    102592: Bone033 6
+    102594: Bone034
+    102596: Bone034 1
+    102598: Bone034 2
+    102600: Bone034 3
+    102602: Bone034 4
+    102604: Bone034 5
+    102606: Bone035
+    102608: Bone035 1
+    102610: Bone035 2
+    102612: Bone035 3
+    102614: Bone035 4
+    102616: Bone035 5
+    102618: Bone036
+    102620: Bone036 1
+    102622: Bone036 2
+    102624: Bone036 3
+    102626: Bone036 4
+    102628: Bone036 5
+    102630: Bone037
+    102632: Bone037 1
+    102634: Bone037 2
+    102636: Bone037 3
+    102638: Bone037 4
+    102640: Bone037 5
+    102642: Bone038
+    102644: Bone038 1
+    102646: Bone038 2
+    102648: Bone038 3
+    102650: Bone038 4
+    102652: Bone038 5
+    102654: Bone039
+    102656: Bone039 1
+    102658: Bone039 2
+    102660: Bone039 3
+    102662: Bone039 4
+    102664: Bone039 5
+    102666: Bone039 6
+    102668: Bone040
+    102670: Bone040 1
+    102672: Bone040 2
+    102674: Bone040 3
+    102676: Bone040 4
+    102678: Bone040 5
+    102680: Bone041
+    102682: Bone041 1
+    102684: Bone041 2
+    102686: Bone041 3
+    102688: Bone041 4
+    102690: Bone041 5
+    102692: Bone042
+    102694: Bone042 1
+    102696: Bone042 2
+    102698: Bone042 3
+    102700: Bone042 4
+    102702: Bone042 5
+    102704: Bone043
+    102706: Bone043 1
+    102708: Bone043 2
+    102710: Bone043 3
+    102712: Bone043 4
+    102714: Bone043 5
+    102716: Bone044
+    102718: Bone044 1
+    102720: Bone044 2
+    102722: Bone044 3
+    102724: Bone044 4
+    102726: Bone044 5
+    102728: Bone045
+    102730: Bone045 1
+    102732: Bone045 2
+    102734: Bone045 3
+    102736: Bone045 4
+    102738: Bone045 5
+    102740: Bone046
+    102742: Bone046 1
+    102744: Bone046 2
+    102746: Bone046 3
+    102748: Bone046 4
+    102750: Bone046 5
+    102752: Bone046 6
+    102754: Bone047
+    102756: Bone047 1
+    102758: Bone047 2
+    102760: Bone047 3
+    102762: Bone047 4
+    102764: Bone047 5
+    102766: Bone048
+    102768: Bone048 1
+    102770: Bone048 2
+    102772: Bone048 3
+    102774: Bone048 4
+    102776: Bone048 5
+    102778: Bone049
+    102780: Bone049 1
+    102782: Bone049 2
+    102784: Bone049 3
+    102786: Bone049 4
+    102788: Bone049 5
+    102790: Bone050
+    102792: Bone050 1
+    102794: Bone050 2
+    102796: Bone050 3
+    102798: Bone050 4
+    102800: Bone050 5
+    102802: Bone051
+    102804: Bone051 1
+    102806: Bone051 2
+    102808: Bone051 3
+    102810: Bone051 4
+    102812: Bone051 5
+    102814: Bone052
+    102816: Bone052 1
+    102818: Bone052 2
+    102820: Bone053
+    102822: Bone053 1
+    102824: Bone053 2
+    102826: Bone054
+    102828: Bone054 1
+    102830: Bone054 2
+    102832: cannon
+    102834: diffusion
+    102836: diffusion_2
+    102838: Dust
+    102840: Dust 1
+    102842: Dust 2
+    102844: Dust 3
+    102846: Effect_Kiana_BigGun
+    102848: Effect_KianaEffect_Model_YN_BigGun
+    102850: Electric ring
+    102852: Electric ring (1)
+    102854: Electro
+    102856: Electro 1
+    102858: Electro 2
+    102860: Electro 3
+    102862: Electro 4
+    102864: Electro_2
+    102866: Electro_2 1
+    102868: Electro_2 2
+    102870: Electro_2 3
+    102872: Electro_2 4
+    102874: energy
+    102876: Explosion-B
+    102878: Eye_L
+    102880: Eye_L 1
+    102882: Eye_L 10
+    102884: Eye_L 11
+    102886: Eye_L 2
+    102888: Eye_L 3
+    102890: Eye_L 4
+    102892: Eye_L 5
+    102894: Eye_L 6
+    102896: Eye_L 7
+    102898: Eye_L 8
+    102900: Eye_L 9
+    102902: Eye_R
+    102904: Eye_R 1
+    102906: Eye_R 10
+    102908: Eye_R 11
+    102910: Eye_R 2
+    102912: Eye_R 3
+    102914: Eye_R 4
+    102916: Eye_R 5
+    102918: Eye_R 6
+    102920: Eye_R 7
+    102922: Eye_R 8
+    102924: Eye_R 9
+    102926: Face
+    102928: Face 1
+    102930: Face 10
+    102932: Face 11
+    102934: Face 12
+    102936: Face 13
+    102938: Face 14
+    102940: Face 2
+    102942: Face 3
+    102944: Face 4
+    102946: Face 5
+    102948: Face 6
+    102950: Face 7
+    102952: Face 8
+    102954: Face 9
+    102956: FaceQ
+    102958: fire_1
+    102960: fire_1 1
+    102962: fire_2
+    102964: fire_2 1
+    102966: Flash00
+    102968: Flash00 1
+    102970: gal_arm_l
+    102972: gal_arm_l 1
+    102974: gal_arm_l 2
+    102976: gal_arm_l 3
+    102978: gal_arm_r
+    102980: gal_arm_r 1
+    102982: gal_arm_r 2
+    102984: gal_arm_r 3
+    102986: gal_chest
+    102988: gal_chest 1
+    102990: gal_chest 2
+    102992: gal_chest 3
+    102994: gal_face
+    102996: gal_face 1
+    102998: gal_face 2
+    103000: gal_face 3
+    103002: gal_head
+    103004: gal_head 1
+    103006: gal_head 2
+    103008: gal_head 3
+    103010: gal_leg_l
+    103012: gal_leg_l 1
+    103014: gal_leg_l 2
+    103016: gal_leg_l 3
+    103018: gal_leg_r
+    103020: gal_leg_r 1
+    103022: gal_leg_r 2
+    103024: gal_leg_r 3
+    103026: gal_private
+    103028: gal_private 1
+    103030: gal_private 2
+    103032: gal_private 3
+    103034: gal_stomach
+    103036: gal_stomach 1
+    103038: gal_stomach 2
+    103040: gal_stomach 3
+    103042: Galaxy
+    103044: Gathered
+    103046: Gathered 1
+    103048: Gathered 2
+    103050: Gathered 3
+    103052: Gathered 4
+    103054: Glow
+    103056: Glow 1
+    103058: Glow 2
+    103060: Glow 3
+    103062: group1
+    103064: Hair
+    103066: Hair 1
+    103068: Hair 10
+    103070: Hair 11
+    103072: Hair 12
+    103074: Hair 13
+    103076: Hair 14
+    103078: Hair 15
+    103080: Hair 2
+    103082: Hair 3
+    103084: Hair 4
+    103086: Hair 5
+    103088: Hair 6
+    103090: Hair 7
+    103092: Hair 8
+    103094: Hair 9
+    103096: InnerCamera
+    103098: InnerCamera 1
+    103100: InnerCamera 10
+    103102: InnerCamera 11
+    103104: InnerCamera 12
+    103106: InnerCamera 2
+    103108: InnerCamera 3
+    103110: InnerCamera 4
+    103112: InnerCamera 5
+    103114: InnerCamera 6
+    103116: InnerCamera 7
+    103118: InnerCamera 8
+    103120: InnerCamera 9
+    103122: //RootNode
+    103124: LeftGunPoint
+    103126: LeftGunPoint 1
+    103128: LeftGunPoint 10
+    103130: LeftGunPoint 11
+    103132: LeftGunPoint 2
+    103134: LeftGunPoint 3
+    103136: LeftGunPoint 4
+    103138: LeftGunPoint 5
+    103140: LeftGunPoint 6
+    103142: LeftGunPoint 7
+    103144: LeftGunPoint 8
+    103146: LeftGunPoint 9
+    103148: Light
+    103150: Light 1
+    103152: Lightbeam04
+    103154: Lightning
+    103156: Lightning_2
+    103158: Line02
+    103160: Link_L
+    103162: Link_L 1
+    103164: Link_L 10
+    103166: Link_L 11
+    103168: Link_L 12
+    103170: Link_L 13
+    103172: Link_L 14
+    103174: Link_L 15
+    103176: Link_L 2
+    103178: Link_L 3
+    103180: Link_L 4
+    103182: Link_L 5
+    103184: Link_L 6
+    103186: Link_L 7
+    103188: Link_L 8
+    103190: Link_L 9
+    103192: Link_R
+    103194: Link_R 1
+    103196: Link_R 10
+    103198: Link_R 11
+    103200: Link_R 12
+    103202: Link_R 13
+    103204: Link_R 14
+    103206: Link_R 15
+    103208: Link_R 2
+    103210: Link_R 3
+    103212: Link_R 4
+    103214: Link_R 5
+    103216: Link_R 6
+    103218: Link_R 7
+    103220: Link_R 8
+    103222: Link_R 9
+    103224: Logo01
+    103226: Logo01 1
+    103228: Logo01 2
+    103230: Logo01 3
+    103232: Logo02
+    103234: Logo02 1
+    103236: Logo02 2
+    103238: Logo02 3
+    103240: Logo03
+    103242: Logo03 1
+    103244: Logo03 2
+    103246: Logo03 3
+    103248: Mouth
+    103250: Mouth 1
+    103252: Mouth 10
+    103254: Mouth 11
+    103256: Mouth 2
+    103258: Mouth 3
+    103260: Mouth 4
+    103262: Mouth 5
+    103264: Mouth 6
+    103266: Mouth 7
+    103268: Mouth 8
+    103270: Mouth 9
+    103272: O01
+    103274: O01 1
+    103276: O01 2
+    103278: O01 3
+    103280: Object002
+    103282: Object003
+    103284: Object004
+    103286: Object005
+    103288: Object009
+    103290: Object010
+    103292: Object011
+    103294: Object012
+    103296: Object013
+    103298: Object014
+    103300: Photosphere
+    103302: PT_BackJet
+    103304: PT_BackJet 1
+    103306: RealShadowPaster
+    103308: RealShadowPaster 1
+    103310: RealShadowPaster 10
+    103312: RealShadowPaster 11
+    103314: RealShadowPaster 12
+    103316: RealShadowPaster 2
+    103318: RealShadowPaster 3
+    103320: RealShadowPaster 4
+    103322: RealShadowPaster 5
+    103324: RealShadowPaster 6
+    103326: RealShadowPaster 7
+    103328: RealShadowPaster 8
+    103330: RealShadowPaster 9
+    103332: Relative
+    103334: Relative 1
+    103336: Relative 2
+    103338: Relative 3
+    103340: Relative 4
+    103342: RightGunPoint
+    103344: RightGunPoint 1
+    103346: RightGunPoint 10
+    103348: RightGunPoint 11
+    103350: RightGunPoint 2
+    103352: RightGunPoint 3
+    103354: RightGunPoint 4
+    103356: RightGunPoint 5
+    103358: RightGunPoint 6
+    103360: RightGunPoint 7
+    103362: RightGunPoint 8
+    103364: RightGunPoint 9
+    103366: Ring03
+    103368: Ring03 1
+    103370: Ring03 2
+    103372: Ring03 3
+    103374: Ring03 4
+    103376: Ring03 5
+    103378: Ring03 6
+    103380: Ring03 7
+    103382: Ring03 8
+    103384: Ring03 9
+    103386: Smoke-Y
+    103388: Smoke-Y 1
+    103390: Smoke-Y 2
+    103392: Smoke-Y 3
+    103394: Smoke-Y 4
+    103396: Smoke01
+    103398: Smoke01 1
+    103400: Smoke01 2
+    103402: Smoke01 3
+    103404: Smoke01 4
+    103406: Smoke01 5
+    103408: Smoke02
+    103410: Smoke03
+    103412: Spark
+    103414: Spark 1
+    103416: Spark 2
+    103418: Spark_2
+    103420: Spark_2 1
+    103422: Spot
+    103424: Spot 1
+    103426: Spot 10
+    103428: Spot 11
+    103430: Spot 2
+    103432: Spot 3
+    103434: Spot 4
+    103436: Spot 5
+    103438: Spot 6
+    103440: Spot 7
+    103442: Spot 8
+    103444: Spot 9
+    103446: Spot_2
+    103448: Spot_2 1
+    103450: Spot_2 2
+    103452: Spot_3
+    103454: Spot_3 1
+    103456: Star point
+    103458: Star_Anim
+    103460: Star_Anim 1
+    103462: Star_Anim 2
+    103464: Star_Anim 3
+    103466: Star_Anim 4
+    103468: Stigmata_Kiana
+    103470: Stigmata_Kiana 1
+    103472: Stigmata_Kiana 2
+    103474: Stigmata_Kiana 3
+    103476: Swirl
+    103478: Swirl-3
+    103480: Swirl-Black
+    103482: Swirl_2
+    103484: Swirl_Distortion
+    103486: Swirl_Distortion_2
+    103488: To light
+    103490: Trail_1
+    103492: Trail_1 1
+    103494: Trail_2
+    103496: Trail_2 1
+    103498: Wave06
+    103500: Wave06 1
+    103502: Wave07
+    103504: Wave07 1
+    103506: Wave07 2
+    103508: Wave07 3
+    103510: Wave07 4
+    103512: Wave07 5
+    103514: Wave07_2
+    103516: Wave07_2 1
+    103518: Wave07_2 2
+    103520: Weapon_L
+    103522: Weapon_L 1
+    103524: Weapon_L 10
+    103526: Weapon_L 11
+    103528: Weapon_L 12
+    103530: Weapon_L 13
+    103532: Weapon_L 14
+    103534: Weapon_L 15
+    103536: Weapon_L 2
+    103538: Weapon_L 3
+    103540: Weapon_L 4
+    103542: Weapon_L 5
+    103544: Weapon_L 6
+    103546: Weapon_L 7
+    103548: Weapon_L 8
+    103550: Weapon_L 9
+    103552: Weapon_R
+    103554: 'Weapon_R '
+    103556: Weapon_R 1
+    103558: Weapon_R 10
+    103560: Weapon_R 11
+    103562: Weapon_R 12
+    103564: Weapon_R 13
+    103566: Weapon_R 14
+    103568: Weapon_R 2
+    103570: Weapon_R 3
+    103572: Weapon_R 4
+    103574: Weapon_R 5
+    103576: Weapon_R 6
+    103578: Weapon_R 7
+    103580: Weapon_R 8
+    103582: Weapon_R 9
+    103584: Wing
+    103586: Wing 1
+    103588: Wing 2
+    103590: Wing 3
+    103592: Wing_L1
+    103594: Wing_L1 1
+    103596: Wing_L1 2
+    103598: Wing_L2
+    103600: Wing_L2 1
+    103602: Wing_L2 2
+    103604: Wing_L3
+    103606: Wing_L3 1
+    103608: Wing_L3 2
+    103610: Wing_L4
+    103612: Wing_L4 1
+    103614: Wing_L4 2
+    103616: Wing_L5
+    103618: Wing_L5 1
+    103620: Wing_L5 2
+    103622: Wing_R1
+    103624: Wing_R1 1
+    103626: Wing_R1 2
+    103628: Wing_R2
+    103630: Wing_R2 1
+    103632: Wing_R2 2
+    103634: Wing_R3
+    103636: Wing_R3 1
+    103638: Wing_R3 2
+    103640: Wing_R4
+    103642: Wing_R4 1
+    103644: Wing_R4 2
+    103646: Wing_R5
+    103648: Wing_R5 1
+    103650: Wing_R5 2
+    400000: Aperture
+    400002: Aperture 1
+    400004: Avatar_Kiana_C1_FX
+    400006: Avatar_Kiana_C1_FX_backup
+    400008: Avatar_Kiana_C1_FX_Low
+    400010: Avatar_Kiana_C1_FX_UI
+    400012: Avatar_Kiana_C2_PT
+    400014: Avatar_Kiana_C2_PT_backup
+    400016: Avatar_Kiana_C2_PT_Low
+    400018: Avatar_Kiana_C2_PT_UI
+    400020: Avatar_Kiana_C3_QN
+    400022: Avatar_Kiana_C3_QN_backup
+    400024: Avatar_Kiana_C3_QN_Low
+    400026: Avatar_Kiana_C3_QN_UI
+    400028: Avatar_Kiana_C4_YN
+    400030: Avatar_Kiana_C4_YN_backup
+    400032: Avatar_Kiana_C4_YN_Low
+    400034: Avatar_Kiana_C4_YN_UI
+    400036: Avatar_Kiana_Charge
+    400038: Avatar_Kiana_Charge_After_Hit
+    400040: Avatar_Kiana_FX_ATK4_Center
+    400042: Avatar_Kiana_FX_ATK4_Left_Glow
+    400044: Avatar_Kiana_FX_ATK4_Right_Glow
+    400046: Avatar_Kiana_FX_BlackHole
+    400048: Avatar_Kiana_FX_SKL2_Extra_Flare
+    400050: Avatar_Kiana_Ground_Explode
+    400052: Avatar_Kiana_Ground_Explode_Large
+    400054: Avatar_Kiana_Ground_Explode_Small
+    400056: Avatar_Kiana_QN_Evade_Light
+    400058: Avatar_Kiana_QN_RandomThunder
+    400060: Avatar_Kiana_QN_Ultra_Heal
+    400062: Avatar_Kiana_Shoot_Pistol_Left_01
+    400064: Avatar_Kiana_Shoot_Pistol_Left_01_New
+    400066: Avatar_Kiana_Shoot_Pistol_Right_01
+    400068: Avatar_Kiana_Shoot_Pistol_Right_01_New
+    400070: Avatar_Kiana_Skill_4_1
+    400072: Avatar_Kiana_Sky_Explode
+    400074: Avatar_Kiana_Ultra_Enter
+    400076: Avatar_Kiana_Ultra_Enter 1
+    400078: Avatar_Kiana_Ultra_Enter 2
+    400080: Avatar_Kiana_Ultra_Enter 3
+    400082: Avatar_Kiana_Ultra_Enter 4
+    400084: Avatar_Kiana_Ultra_Follow
+    400086: Avatar_Kiana_WitchTime_Petal
+    400088: Avatar_Kiana_WitchTime_Petal_Dark
+    400090: Avatar_Kiana_YN_ATK4_Shoot_01
+    400092: Avatar_Kiana_YN_ATK4_Shoot_02
+    400094: Avatar_Kiana_YN_BigGun
+    400096: Avatar_Kiana_YN_BigGun_Charge
+    400098: Avatar_Kiana_YN_BigGun_Explode
+    400100: Avatar_Kiana_YN_BigGun_Shoot
+    400102: Avatar_Kiana_YN_Missile_Explode
+    400104: Avatar_Kiana_YN_Ultra_Start
+    400106: Back
+    400108: Back 1
+    400110: Back 2
+    400112: Back 3
+    400114: Beam-2
+    400116: Beam-2 1
+    400118: Beam-2 2
+    400120: BigGun1
+    400122: Bip001
+    400124: Bip001 1
+    400126: Bip001 10
+    400128: Bip001 11
+    400130: Bip001 12
+    400132: Bip001 13
+    400134: Bip001 14
+    400136: Bip001 15
+    400138: Bip001 2
+    400140: Bip001 3
+    400142: Bip001 4
+    400144: Bip001 5
+    400146: Bip001 6
+    400148: Bip001 7
+    400150: Bip001 8
+    400152: Bip001 9
+    400154: Bip001 Footsteps
+    400156: Bip001 Footsteps 1
+    400158: Bip001 Footsteps 2
+    400160: Bip001 Head
+    400162: Bip001 Head 1
+    400164: Bip001 Head 10
+    400166: Bip001 Head 11
+    400168: Bip001 Head 12
+    400170: Bip001 Head 13
+    400172: Bip001 Head 14
+    400174: Bip001 Head 15
+    400176: Bip001 Head 2
+    400178: Bip001 Head 3
+    400180: Bip001 Head 4
+    400182: Bip001 Head 5
+    400184: Bip001 Head 6
+    400186: Bip001 Head 7
+    400188: Bip001 Head 8
+    400190: Bip001 Head 9
+    400192: Bip001 HeadNub
+    400194: Bip001 HeadNub 1
+    400196: Bip001 HeadNub 10
+    400198: Bip001 HeadNub 11
+    400200: Bip001 HeadNub 2
+    400202: Bip001 HeadNub 3
+    400204: Bip001 HeadNub 4
+    400206: Bip001 HeadNub 5
+    400208: Bip001 HeadNub 6
+    400210: Bip001 HeadNub 7
+    400212: Bip001 HeadNub 8
+    400214: Bip001 HeadNub 9
+    400216: Bip001 L Calf
+    400218: Bip001 L Calf 1
+    400220: Bip001 L Calf 10
+    400222: Bip001 L Calf 11
+    400224: Bip001 L Calf 2
+    400226: Bip001 L Calf 3
+    400228: Bip001 L Calf 4
+    400230: Bip001 L Calf 5
+    400232: Bip001 L Calf 6
+    400234: Bip001 L Calf 7
+    400236: Bip001 L Calf 8
+    400238: Bip001 L Calf 9
+    400240: Bip001 L Clavicle
+    400242: Bip001 L Clavicle 1
+    400244: Bip001 L Clavicle 10
+    400246: Bip001 L Clavicle 11
+    400248: Bip001 L Clavicle 2
+    400250: Bip001 L Clavicle 3
+    400252: Bip001 L Clavicle 4
+    400254: Bip001 L Clavicle 5
+    400256: Bip001 L Clavicle 6
+    400258: Bip001 L Clavicle 7
+    400260: Bip001 L Clavicle 8
+    400262: Bip001 L Clavicle 9
+    400264: Bip001 L Finger0
+    400266: Bip001 L Finger0 1
+    400268: Bip001 L Finger0 10
+    400270: Bip001 L Finger0 11
+    400272: Bip001 L Finger0 2
+    400274: Bip001 L Finger0 3
+    400276: Bip001 L Finger0 4
+    400278: Bip001 L Finger0 5
+    400280: Bip001 L Finger0 6
+    400282: Bip001 L Finger0 7
+    400284: Bip001 L Finger0 8
+    400286: Bip001 L Finger0 9
+    400288: Bip001 L Finger01
+    400290: Bip001 L Finger01 1
+    400292: Bip001 L Finger01 10
+    400294: Bip001 L Finger01 11
+    400296: Bip001 L Finger01 2
+    400298: Bip001 L Finger01 3
+    400300: Bip001 L Finger01 4
+    400302: Bip001 L Finger01 5
+    400304: Bip001 L Finger01 6
+    400306: Bip001 L Finger01 7
+    400308: Bip001 L Finger01 8
+    400310: Bip001 L Finger01 9
+    400312: Bip001 L Finger02
+    400314: Bip001 L Finger02 1
+    400316: Bip001 L Finger02 10
+    400318: Bip001 L Finger02 11
+    400320: Bip001 L Finger02 2
+    400322: Bip001 L Finger02 3
+    400324: Bip001 L Finger02 4
+    400326: Bip001 L Finger02 5
+    400328: Bip001 L Finger02 6
+    400330: Bip001 L Finger02 7
+    400332: Bip001 L Finger02 8
+    400334: Bip001 L Finger02 9
+    400336: Bip001 L Finger0Nub
+    400338: Bip001 L Finger0Nub 1
+    400340: Bip001 L Finger0Nub 10
+    400342: Bip001 L Finger0Nub 11
+    400344: Bip001 L Finger0Nub 2
+    400346: Bip001 L Finger0Nub 3
+    400348: Bip001 L Finger0Nub 4
+    400350: Bip001 L Finger0Nub 5
+    400352: Bip001 L Finger0Nub 6
+    400354: Bip001 L Finger0Nub 7
+    400356: Bip001 L Finger0Nub 8
+    400358: Bip001 L Finger0Nub 9
+    400360: Bip001 L Finger1
+    400362: Bip001 L Finger1 1
+    400364: Bip001 L Finger1 10
+    400366: Bip001 L Finger1 11
+    400368: Bip001 L Finger1 2
+    400370: Bip001 L Finger1 3
+    400372: Bip001 L Finger1 4
+    400374: Bip001 L Finger1 5
+    400376: Bip001 L Finger1 6
+    400378: Bip001 L Finger1 7
+    400380: Bip001 L Finger1 8
+    400382: Bip001 L Finger1 9
+    400384: Bip001 L Finger11
+    400386: Bip001 L Finger11 1
+    400388: Bip001 L Finger11 10
+    400390: Bip001 L Finger11 11
+    400392: Bip001 L Finger11 2
+    400394: Bip001 L Finger11 3
+    400396: Bip001 L Finger11 4
+    400398: Bip001 L Finger11 5
+    400400: Bip001 L Finger11 6
+    400402: Bip001 L Finger11 7
+    400404: Bip001 L Finger11 8
+    400406: Bip001 L Finger11 9
+    400408: Bip001 L Finger12
+    400410: Bip001 L Finger12 1
+    400412: Bip001 L Finger12 10
+    400414: Bip001 L Finger12 11
+    400416: Bip001 L Finger12 2
+    400418: Bip001 L Finger12 3
+    400420: Bip001 L Finger12 4
+    400422: Bip001 L Finger12 5
+    400424: Bip001 L Finger12 6
+    400426: Bip001 L Finger12 7
+    400428: Bip001 L Finger12 8
+    400430: Bip001 L Finger12 9
+    400432: Bip001 L Finger1Nub
+    400434: Bip001 L Finger1Nub 1
+    400436: Bip001 L Finger1Nub 10
+    400438: Bip001 L Finger1Nub 11
+    400440: Bip001 L Finger1Nub 2
+    400442: Bip001 L Finger1Nub 3
+    400444: Bip001 L Finger1Nub 4
+    400446: Bip001 L Finger1Nub 5
+    400448: Bip001 L Finger1Nub 6
+    400450: Bip001 L Finger1Nub 7
+    400452: Bip001 L Finger1Nub 8
+    400454: Bip001 L Finger1Nub 9
+    400456: Bip001 L Finger2
+    400458: Bip001 L Finger2 1
+    400460: Bip001 L Finger2 10
+    400462: Bip001 L Finger2 11
+    400464: Bip001 L Finger2 2
+    400466: Bip001 L Finger2 3
+    400468: Bip001 L Finger2 4
+    400470: Bip001 L Finger2 5
+    400472: Bip001 L Finger2 6
+    400474: Bip001 L Finger2 7
+    400476: Bip001 L Finger2 8
+    400478: Bip001 L Finger2 9
+    400480: Bip001 L Finger21
+    400482: Bip001 L Finger21 1
+    400484: Bip001 L Finger21 10
+    400486: Bip001 L Finger21 11
+    400488: Bip001 L Finger21 2
+    400490: Bip001 L Finger21 3
+    400492: Bip001 L Finger21 4
+    400494: Bip001 L Finger21 5
+    400496: Bip001 L Finger21 6
+    400498: Bip001 L Finger21 7
+    400500: Bip001 L Finger21 8
+    400502: Bip001 L Finger21 9
+    400504: Bip001 L Finger22
+    400506: Bip001 L Finger22 1
+    400508: Bip001 L Finger22 10
+    400510: Bip001 L Finger22 11
+    400512: Bip001 L Finger22 2
+    400514: Bip001 L Finger22 3
+    400516: Bip001 L Finger22 4
+    400518: Bip001 L Finger22 5
+    400520: Bip001 L Finger22 6
+    400522: Bip001 L Finger22 7
+    400524: Bip001 L Finger22 8
+    400526: Bip001 L Finger22 9
+    400528: Bip001 L Finger2Nub
+    400530: Bip001 L Finger2Nub 1
+    400532: Bip001 L Finger2Nub 10
+    400534: Bip001 L Finger2Nub 11
+    400536: Bip001 L Finger2Nub 2
+    400538: Bip001 L Finger2Nub 3
+    400540: Bip001 L Finger2Nub 4
+    400542: Bip001 L Finger2Nub 5
+    400544: Bip001 L Finger2Nub 6
+    400546: Bip001 L Finger2Nub 7
+    400548: Bip001 L Finger2Nub 8
+    400550: Bip001 L Finger2Nub 9
+    400552: Bip001 L Finger3
+    400554: Bip001 L Finger3 1
+    400556: Bip001 L Finger3 10
+    400558: Bip001 L Finger3 11
+    400560: Bip001 L Finger3 2
+    400562: Bip001 L Finger3 3
+    400564: Bip001 L Finger3 4
+    400566: Bip001 L Finger3 5
+    400568: Bip001 L Finger3 6
+    400570: Bip001 L Finger3 7
+    400572: Bip001 L Finger3 8
+    400574: Bip001 L Finger3 9
+    400576: Bip001 L Finger31
+    400578: Bip001 L Finger31 1
+    400580: Bip001 L Finger31 10
+    400582: Bip001 L Finger31 11
+    400584: Bip001 L Finger31 2
+    400586: Bip001 L Finger31 3
+    400588: Bip001 L Finger31 4
+    400590: Bip001 L Finger31 5
+    400592: Bip001 L Finger31 6
+    400594: Bip001 L Finger31 7
+    400596: Bip001 L Finger31 8
+    400598: Bip001 L Finger31 9
+    400600: Bip001 L Finger32
+    400602: Bip001 L Finger32 1
+    400604: Bip001 L Finger32 10
+    400606: Bip001 L Finger32 11
+    400608: Bip001 L Finger32 2
+    400610: Bip001 L Finger32 3
+    400612: Bip001 L Finger32 4
+    400614: Bip001 L Finger32 5
+    400616: Bip001 L Finger32 6
+    400618: Bip001 L Finger32 7
+    400620: Bip001 L Finger32 8
+    400622: Bip001 L Finger32 9
+    400624: Bip001 L Finger3Nub
+    400626: Bip001 L Finger3Nub 1
+    400628: Bip001 L Finger3Nub 10
+    400630: Bip001 L Finger3Nub 11
+    400632: Bip001 L Finger3Nub 2
+    400634: Bip001 L Finger3Nub 3
+    400636: Bip001 L Finger3Nub 4
+    400638: Bip001 L Finger3Nub 5
+    400640: Bip001 L Finger3Nub 6
+    400642: Bip001 L Finger3Nub 7
+    400644: Bip001 L Finger3Nub 8
+    400646: Bip001 L Finger3Nub 9
+    400648: Bip001 L Finger4
+    400650: Bip001 L Finger4 1
+    400652: Bip001 L Finger4 10
+    400654: Bip001 L Finger4 11
+    400656: Bip001 L Finger4 2
+    400658: Bip001 L Finger4 3
+    400660: Bip001 L Finger4 4
+    400662: Bip001 L Finger4 5
+    400664: Bip001 L Finger4 6
+    400666: Bip001 L Finger4 7
+    400668: Bip001 L Finger4 8
+    400670: Bip001 L Finger4 9
+    400672: Bip001 L Finger41
+    400674: Bip001 L Finger41 1
+    400676: Bip001 L Finger41 10
+    400678: Bip001 L Finger41 11
+    400680: Bip001 L Finger41 2
+    400682: Bip001 L Finger41 3
+    400684: Bip001 L Finger41 4
+    400686: Bip001 L Finger41 5
+    400688: Bip001 L Finger41 6
+    400690: Bip001 L Finger41 7
+    400692: Bip001 L Finger41 8
+    400694: Bip001 L Finger41 9
+    400696: Bip001 L Finger42
+    400698: Bip001 L Finger42 1
+    400700: Bip001 L Finger42 10
+    400702: Bip001 L Finger42 11
+    400704: Bip001 L Finger42 2
+    400706: Bip001 L Finger42 3
+    400708: Bip001 L Finger42 4
+    400710: Bip001 L Finger42 5
+    400712: Bip001 L Finger42 6
+    400714: Bip001 L Finger42 7
+    400716: Bip001 L Finger42 8
+    400718: Bip001 L Finger42 9
+    400720: Bip001 L Finger4Nub
+    400722: Bip001 L Finger4Nub 1
+    400724: Bip001 L Finger4Nub 10
+    400726: Bip001 L Finger4Nub 11
+    400728: Bip001 L Finger4Nub 2
+    400730: Bip001 L Finger4Nub 3
+    400732: Bip001 L Finger4Nub 4
+    400734: Bip001 L Finger4Nub 5
+    400736: Bip001 L Finger4Nub 6
+    400738: Bip001 L Finger4Nub 7
+    400740: Bip001 L Finger4Nub 8
+    400742: Bip001 L Finger4Nub 9
+    400744: Bip001 L Foot
+    400746: Bip001 L Foot 1
+    400748: Bip001 L Foot 10
+    400750: Bip001 L Foot 11
+    400752: Bip001 L Foot 12
+    400754: Bip001 L Foot 13
+    400756: Bip001 L Foot 14
+    400758: Bip001 L Foot 15
+    400760: Bip001 L Foot 2
+    400762: Bip001 L Foot 3
+    400764: Bip001 L Foot 4
+    400766: Bip001 L Foot 5
+    400768: Bip001 L Foot 6
+    400770: Bip001 L Foot 7
+    400772: Bip001 L Foot 8
+    400774: Bip001 L Foot 9
+    400776: Bip001 L Forearm
+    400778: Bip001 L Forearm 1
+    400780: Bip001 L Forearm 10
+    400782: Bip001 L Forearm 11
+    400784: Bip001 L Forearm 2
+    400786: Bip001 L Forearm 3
+    400788: Bip001 L Forearm 4
+    400790: Bip001 L Forearm 5
+    400792: Bip001 L Forearm 6
+    400794: Bip001 L Forearm 7
+    400796: Bip001 L Forearm 8
+    400798: Bip001 L Forearm 9
+    400800: Bip001 L Hand
+    400802: Bip001 L Hand 1
+    400804: Bip001 L Hand 10
+    400806: Bip001 L Hand 11
+    400808: Bip001 L Hand 12
+    400810: Bip001 L Hand 13
+    400812: Bip001 L Hand 14
+    400814: Bip001 L Hand 15
+    400816: Bip001 L Hand 2
+    400818: Bip001 L Hand 3
+    400820: Bip001 L Hand 4
+    400822: Bip001 L Hand 5
+    400824: Bip001 L Hand 6
+    400826: Bip001 L Hand 7
+    400828: Bip001 L Hand 8
+    400830: Bip001 L Hand 9
+    400832: Bip001 L Thigh
+    400834: Bip001 L Thigh 1
+    400836: Bip001 L Thigh 10
+    400838: Bip001 L Thigh 11
+    400840: Bip001 L Thigh 2
+    400842: Bip001 L Thigh 3
+    400844: Bip001 L Thigh 4
+    400846: Bip001 L Thigh 5
+    400848: Bip001 L Thigh 6
+    400850: Bip001 L Thigh 7
+    400852: Bip001 L Thigh 8
+    400854: Bip001 L Thigh 9
+    400856: Bip001 L Toe0
+    400858: Bip001 L Toe0 1
+    400860: Bip001 L Toe0 10
+    400862: Bip001 L Toe0 11
+    400864: Bip001 L Toe0 12
+    400866: Bip001 L Toe0 13
+    400868: Bip001 L Toe0 14
+    400870: Bip001 L Toe0 15
+    400872: Bip001 L Toe0 2
+    400874: Bip001 L Toe0 3
+    400876: Bip001 L Toe0 4
+    400878: Bip001 L Toe0 5
+    400880: Bip001 L Toe0 6
+    400882: Bip001 L Toe0 7
+    400884: Bip001 L Toe0 8
+    400886: Bip001 L Toe0 9
+    400888: Bip001 L Toe0Nub
+    400890: Bip001 L Toe0Nub 1
+    400892: Bip001 L Toe0Nub 10
+    400894: Bip001 L Toe0Nub 11
+    400896: Bip001 L Toe0Nub 2
+    400898: Bip001 L Toe0Nub 3
+    400900: Bip001 L Toe0Nub 4
+    400902: Bip001 L Toe0Nub 5
+    400904: Bip001 L Toe0Nub 6
+    400906: Bip001 L Toe0Nub 7
+    400908: Bip001 L Toe0Nub 8
+    400910: Bip001 L Toe0Nub 9
+    400912: Bip001 L UpperArm
+    400914: Bip001 L UpperArm 1
+    400916: Bip001 L UpperArm 10
+    400918: Bip001 L UpperArm 11
+    400920: Bip001 L UpperArm 2
+    400922: Bip001 L UpperArm 3
+    400924: Bip001 L UpperArm 4
+    400926: Bip001 L UpperArm 5
+    400928: Bip001 L UpperArm 6
+    400930: Bip001 L UpperArm 7
+    400932: Bip001 L UpperArm 8
+    400934: Bip001 L UpperArm 9
+    400936: Bip001 Neck
+    400938: Bip001 Neck 1
+    400940: Bip001 Neck 10
+    400942: Bip001 Neck 11
+    400944: Bip001 Neck 12
+    400946: Bip001 Neck 13
+    400948: Bip001 Neck 14
+    400950: Bip001 Neck 15
+    400952: Bip001 Neck 2
+    400954: Bip001 Neck 3
+    400956: Bip001 Neck 4
+    400958: Bip001 Neck 5
+    400960: Bip001 Neck 6
+    400962: Bip001 Neck 7
+    400964: Bip001 Neck 8
+    400966: Bip001 Neck 9
+    400968: Bip001 Pelvis
+    400970: Bip001 Pelvis 1
+    400972: Bip001 Pelvis 10
+    400974: Bip001 Pelvis 11
+    400976: Bip001 Pelvis 2
+    400978: Bip001 Pelvis 3
+    400980: Bip001 Pelvis 4
+    400982: Bip001 Pelvis 5
+    400984: Bip001 Pelvis 6
+    400986: Bip001 Pelvis 7
+    400988: Bip001 Pelvis 8
+    400990: Bip001 Pelvis 9
+    400992: Bip001 Prop1
+    400994: Bip001 Prop1 1
+    400996: Bip001 Prop1 10
+    400998: Bip001 Prop1 11
+    401000: Bip001 Prop1 12
+    401002: Bip001 Prop1 13
+    401004: Bip001 Prop1 14
+    401006: Bip001 Prop1 15
+    401008: Bip001 Prop1 2
+    401010: Bip001 Prop1 3
+    401012: Bip001 Prop1 4
+    401014: Bip001 Prop1 5
+    401016: Bip001 Prop1 6
+    401018: Bip001 Prop1 7
+    401020: Bip001 Prop1 8
+    401022: Bip001 Prop1 9
+    401024: Bip001 Prop2
+    401026: Bip001 Prop2 1
+    401028: Bip001 Prop2 10
+    401030: Bip001 Prop2 11
+    401032: Bip001 Prop2 12
+    401034: Bip001 Prop2 13
+    401036: Bip001 Prop2 14
+    401038: Bip001 Prop2 15
+    401040: Bip001 Prop2 2
+    401042: Bip001 Prop2 3
+    401044: Bip001 Prop2 4
+    401046: Bip001 Prop2 5
+    401048: Bip001 Prop2 6
+    401050: Bip001 Prop2 7
+    401052: Bip001 Prop2 8
+    401054: Bip001 Prop2 9
+    401056: Bip001 R Calf
+    401058: Bip001 R Calf 1
+    401060: Bip001 R Calf 10
+    401062: Bip001 R Calf 11
+    401064: Bip001 R Calf 2
+    401066: Bip001 R Calf 3
+    401068: Bip001 R Calf 4
+    401070: Bip001 R Calf 5
+    401072: Bip001 R Calf 6
+    401074: Bip001 R Calf 7
+    401076: Bip001 R Calf 8
+    401078: Bip001 R Calf 9
+    401080: Bip001 R Clavicle
+    401082: Bip001 R Clavicle 1
+    401084: Bip001 R Clavicle 10
+    401086: Bip001 R Clavicle 11
+    401088: Bip001 R Clavicle 2
+    401090: Bip001 R Clavicle 3
+    401092: Bip001 R Clavicle 4
+    401094: Bip001 R Clavicle 5
+    401096: Bip001 R Clavicle 6
+    401098: Bip001 R Clavicle 7
+    401100: Bip001 R Clavicle 8
+    401102: Bip001 R Clavicle 9
+    401104: Bip001 R Finger0
+    401106: Bip001 R Finger0 1
+    401108: Bip001 R Finger0 10
+    401110: Bip001 R Finger0 11
+    401112: Bip001 R Finger0 2
+    401114: Bip001 R Finger0 3
+    401116: Bip001 R Finger0 4
+    401118: Bip001 R Finger0 5
+    401120: Bip001 R Finger0 6
+    401122: Bip001 R Finger0 7
+    401124: Bip001 R Finger0 8
+    401126: Bip001 R Finger0 9
+    401128: Bip001 R Finger01
+    401130: Bip001 R Finger01 1
+    401132: Bip001 R Finger01 10
+    401134: Bip001 R Finger01 11
+    401136: Bip001 R Finger01 2
+    401138: Bip001 R Finger01 3
+    401140: Bip001 R Finger01 4
+    401142: Bip001 R Finger01 5
+    401144: Bip001 R Finger01 6
+    401146: Bip001 R Finger01 7
+    401148: Bip001 R Finger01 8
+    401150: Bip001 R Finger01 9
+    401152: Bip001 R Finger02
+    401154: Bip001 R Finger02 1
+    401156: Bip001 R Finger02 10
+    401158: Bip001 R Finger02 11
+    401160: Bip001 R Finger02 2
+    401162: Bip001 R Finger02 3
+    401164: Bip001 R Finger02 4
+    401166: Bip001 R Finger02 5
+    401168: Bip001 R Finger02 6
+    401170: Bip001 R Finger02 7
+    401172: Bip001 R Finger02 8
+    401174: Bip001 R Finger02 9
+    401176: Bip001 R Finger0Nub
+    401178: Bip001 R Finger0Nub 1
+    401180: Bip001 R Finger0Nub 10
+    401182: Bip001 R Finger0Nub 11
+    401184: Bip001 R Finger0Nub 2
+    401186: Bip001 R Finger0Nub 3
+    401188: Bip001 R Finger0Nub 4
+    401190: Bip001 R Finger0Nub 5
+    401192: Bip001 R Finger0Nub 6
+    401194: Bip001 R Finger0Nub 7
+    401196: Bip001 R Finger0Nub 8
+    401198: Bip001 R Finger0Nub 9
+    401200: Bip001 R Finger1
+    401202: Bip001 R Finger1 1
+    401204: Bip001 R Finger1 10
+    401206: Bip001 R Finger1 11
+    401208: Bip001 R Finger1 2
+    401210: Bip001 R Finger1 3
+    401212: Bip001 R Finger1 4
+    401214: Bip001 R Finger1 5
+    401216: Bip001 R Finger1 6
+    401218: Bip001 R Finger1 7
+    401220: Bip001 R Finger1 8
+    401222: Bip001 R Finger1 9
+    401224: Bip001 R Finger11
+    401226: Bip001 R Finger11 1
+    401228: Bip001 R Finger11 10
+    401230: Bip001 R Finger11 11
+    401232: Bip001 R Finger11 2
+    401234: Bip001 R Finger11 3
+    401236: Bip001 R Finger11 4
+    401238: Bip001 R Finger11 5
+    401240: Bip001 R Finger11 6
+    401242: Bip001 R Finger11 7
+    401244: Bip001 R Finger11 8
+    401246: Bip001 R Finger11 9
+    401248: Bip001 R Finger12
+    401250: Bip001 R Finger12 1
+    401252: Bip001 R Finger12 10
+    401254: Bip001 R Finger12 11
+    401256: Bip001 R Finger12 2
+    401258: Bip001 R Finger12 3
+    401260: Bip001 R Finger12 4
+    401262: Bip001 R Finger12 5
+    401264: Bip001 R Finger12 6
+    401266: Bip001 R Finger12 7
+    401268: Bip001 R Finger12 8
+    401270: Bip001 R Finger12 9
+    401272: Bip001 R Finger1Nub
+    401274: Bip001 R Finger1Nub 1
+    401276: Bip001 R Finger1Nub 10
+    401278: Bip001 R Finger1Nub 11
+    401280: Bip001 R Finger1Nub 2
+    401282: Bip001 R Finger1Nub 3
+    401284: Bip001 R Finger1Nub 4
+    401286: Bip001 R Finger1Nub 5
+    401288: Bip001 R Finger1Nub 6
+    401290: Bip001 R Finger1Nub 7
+    401292: Bip001 R Finger1Nub 8
+    401294: Bip001 R Finger1Nub 9
+    401296: Bip001 R Finger2
+    401298: Bip001 R Finger2 1
+    401300: Bip001 R Finger2 10
+    401302: Bip001 R Finger2 11
+    401304: Bip001 R Finger2 2
+    401306: Bip001 R Finger2 3
+    401308: Bip001 R Finger2 4
+    401310: Bip001 R Finger2 5
+    401312: Bip001 R Finger2 6
+    401314: Bip001 R Finger2 7
+    401316: Bip001 R Finger2 8
+    401318: Bip001 R Finger2 9
+    401320: Bip001 R Finger21
+    401322: Bip001 R Finger21 1
+    401324: Bip001 R Finger21 10
+    401326: Bip001 R Finger21 11
+    401328: Bip001 R Finger21 2
+    401330: Bip001 R Finger21 3
+    401332: Bip001 R Finger21 4
+    401334: Bip001 R Finger21 5
+    401336: Bip001 R Finger21 6
+    401338: Bip001 R Finger21 7
+    401340: Bip001 R Finger21 8
+    401342: Bip001 R Finger21 9
+    401344: Bip001 R Finger22
+    401346: Bip001 R Finger22 1
+    401348: Bip001 R Finger22 10
+    401350: Bip001 R Finger22 11
+    401352: Bip001 R Finger22 2
+    401354: Bip001 R Finger22 3
+    401356: Bip001 R Finger22 4
+    401358: Bip001 R Finger22 5
+    401360: Bip001 R Finger22 6
+    401362: Bip001 R Finger22 7
+    401364: Bip001 R Finger22 8
+    401366: Bip001 R Finger22 9
+    401368: Bip001 R Finger2Nub
+    401370: Bip001 R Finger2Nub 1
+    401372: Bip001 R Finger2Nub 10
+    401374: Bip001 R Finger2Nub 11
+    401376: Bip001 R Finger2Nub 2
+    401378: Bip001 R Finger2Nub 3
+    401380: Bip001 R Finger2Nub 4
+    401382: Bip001 R Finger2Nub 5
+    401384: Bip001 R Finger2Nub 6
+    401386: Bip001 R Finger2Nub 7
+    401388: Bip001 R Finger2Nub 8
+    401390: Bip001 R Finger2Nub 9
+    401392: Bip001 R Finger3
+    401394: Bip001 R Finger3 1
+    401396: Bip001 R Finger3 10
+    401398: Bip001 R Finger3 11
+    401400: Bip001 R Finger3 2
+    401402: Bip001 R Finger3 3
+    401404: Bip001 R Finger3 4
+    401406: Bip001 R Finger3 5
+    401408: Bip001 R Finger3 6
+    401410: Bip001 R Finger3 7
+    401412: Bip001 R Finger3 8
+    401414: Bip001 R Finger3 9
+    401416: Bip001 R Finger31
+    401418: Bip001 R Finger31 1
+    401420: Bip001 R Finger31 10
+    401422: Bip001 R Finger31 11
+    401424: Bip001 R Finger31 2
+    401426: Bip001 R Finger31 3
+    401428: Bip001 R Finger31 4
+    401430: Bip001 R Finger31 5
+    401432: Bip001 R Finger31 6
+    401434: Bip001 R Finger31 7
+    401436: Bip001 R Finger31 8
+    401438: Bip001 R Finger31 9
+    401440: Bip001 R Finger32
+    401442: Bip001 R Finger32 1
+    401444: Bip001 R Finger32 10
+    401446: Bip001 R Finger32 11
+    401448: Bip001 R Finger32 2
+    401450: Bip001 R Finger32 3
+    401452: Bip001 R Finger32 4
+    401454: Bip001 R Finger32 5
+    401456: Bip001 R Finger32 6
+    401458: Bip001 R Finger32 7
+    401460: Bip001 R Finger32 8
+    401462: Bip001 R Finger32 9
+    401464: Bip001 R Finger3Nub
+    401466: Bip001 R Finger3Nub 1
+    401468: Bip001 R Finger3Nub 10
+    401470: Bip001 R Finger3Nub 11
+    401472: Bip001 R Finger3Nub 2
+    401474: Bip001 R Finger3Nub 3
+    401476: Bip001 R Finger3Nub 4
+    401478: Bip001 R Finger3Nub 5
+    401480: Bip001 R Finger3Nub 6
+    401482: Bip001 R Finger3Nub 7
+    401484: Bip001 R Finger3Nub 8
+    401486: Bip001 R Finger3Nub 9
+    401488: Bip001 R Finger4
+    401490: Bip001 R Finger4 1
+    401492: Bip001 R Finger4 10
+    401494: Bip001 R Finger4 11
+    401496: Bip001 R Finger4 2
+    401498: Bip001 R Finger4 3
+    401500: Bip001 R Finger4 4
+    401502: Bip001 R Finger4 5
+    401504: Bip001 R Finger4 6
+    401506: Bip001 R Finger4 7
+    401508: Bip001 R Finger4 8
+    401510: Bip001 R Finger4 9
+    401512: Bip001 R Finger41
+    401514: Bip001 R Finger41 1
+    401516: Bip001 R Finger41 10
+    401518: Bip001 R Finger41 11
+    401520: Bip001 R Finger41 2
+    401522: Bip001 R Finger41 3
+    401524: Bip001 R Finger41 4
+    401526: Bip001 R Finger41 5
+    401528: Bip001 R Finger41 6
+    401530: Bip001 R Finger41 7
+    401532: Bip001 R Finger41 8
+    401534: Bip001 R Finger41 9
+    401536: Bip001 R Finger42
+    401538: Bip001 R Finger42 1
+    401540: Bip001 R Finger42 10
+    401542: Bip001 R Finger42 11
+    401544: Bip001 R Finger42 2
+    401546: Bip001 R Finger42 3
+    401548: Bip001 R Finger42 4
+    401550: Bip001 R Finger42 5
+    401552: Bip001 R Finger42 6
+    401554: Bip001 R Finger42 7
+    401556: Bip001 R Finger42 8
+    401558: Bip001 R Finger42 9
+    401560: Bip001 R Finger4Nub
+    401562: Bip001 R Finger4Nub 1
+    401564: Bip001 R Finger4Nub 10
+    401566: Bip001 R Finger4Nub 11
+    401568: Bip001 R Finger4Nub 2
+    401570: Bip001 R Finger4Nub 3
+    401572: Bip001 R Finger4Nub 4
+    401574: Bip001 R Finger4Nub 5
+    401576: Bip001 R Finger4Nub 6
+    401578: Bip001 R Finger4Nub 7
+    401580: Bip001 R Finger4Nub 8
+    401582: Bip001 R Finger4Nub 9
+    401584: Bip001 R Foot
+    401586: Bip001 R Foot 1
+    401588: Bip001 R Foot 10
+    401590: Bip001 R Foot 11
+    401592: Bip001 R Foot 12
+    401594: Bip001 R Foot 13
+    401596: Bip001 R Foot 14
+    401598: Bip001 R Foot 15
+    401600: Bip001 R Foot 2
+    401602: Bip001 R Foot 3
+    401604: Bip001 R Foot 4
+    401606: Bip001 R Foot 5
+    401608: Bip001 R Foot 6
+    401610: Bip001 R Foot 7
+    401612: Bip001 R Foot 8
+    401614: Bip001 R Foot 9
+    401616: Bip001 R Forearm
+    401618: Bip001 R Forearm 1
+    401620: Bip001 R Forearm 10
+    401622: Bip001 R Forearm 11
+    401624: Bip001 R Forearm 2
+    401626: Bip001 R Forearm 3
+    401628: Bip001 R Forearm 4
+    401630: Bip001 R Forearm 5
+    401632: Bip001 R Forearm 6
+    401634: Bip001 R Forearm 7
+    401636: Bip001 R Forearm 8
+    401638: Bip001 R Forearm 9
+    401640: Bip001 R Hand
+    401642: Bip001 R Hand 1
+    401644: Bip001 R Hand 10
+    401646: Bip001 R Hand 11
+    401648: Bip001 R Hand 12
+    401650: Bip001 R Hand 13
+    401652: Bip001 R Hand 14
+    401654: Bip001 R Hand 15
+    401656: Bip001 R Hand 2
+    401658: Bip001 R Hand 3
+    401660: Bip001 R Hand 4
+    401662: Bip001 R Hand 5
+    401664: Bip001 R Hand 6
+    401666: Bip001 R Hand 7
+    401668: Bip001 R Hand 8
+    401670: Bip001 R Hand 9
+    401672: Bip001 R Thigh
+    401674: Bip001 R Thigh 1
+    401676: Bip001 R Thigh 10
+    401678: Bip001 R Thigh 11
+    401680: Bip001 R Thigh 2
+    401682: Bip001 R Thigh 3
+    401684: Bip001 R Thigh 4
+    401686: Bip001 R Thigh 5
+    401688: Bip001 R Thigh 6
+    401690: Bip001 R Thigh 7
+    401692: Bip001 R Thigh 8
+    401694: Bip001 R Thigh 9
+    401696: Bip001 R Toe0
+    401698: Bip001 R Toe0 1
+    401700: Bip001 R Toe0 10
+    401702: Bip001 R Toe0 11
+    401704: Bip001 R Toe0 12
+    401706: Bip001 R Toe0 13
+    401708: Bip001 R Toe0 14
+    401710: Bip001 R Toe0 15
+    401712: Bip001 R Toe0 2
+    401714: Bip001 R Toe0 3
+    401716: Bip001 R Toe0 4
+    401718: Bip001 R Toe0 5
+    401720: Bip001 R Toe0 6
+    401722: Bip001 R Toe0 7
+    401724: Bip001 R Toe0 8
+    401726: Bip001 R Toe0 9
+    401728: Bip001 R Toe0Nub
+    401730: Bip001 R Toe0Nub 1
+    401732: Bip001 R Toe0Nub 10
+    401734: Bip001 R Toe0Nub 11
+    401736: Bip001 R Toe0Nub 2
+    401738: Bip001 R Toe0Nub 3
+    401740: Bip001 R Toe0Nub 4
+    401742: Bip001 R Toe0Nub 5
+    401744: Bip001 R Toe0Nub 6
+    401746: Bip001 R Toe0Nub 7
+    401748: Bip001 R Toe0Nub 8
+    401750: Bip001 R Toe0Nub 9
+    401752: Bip001 R UpperArm
+    401754: Bip001 R UpperArm 1
+    401756: Bip001 R UpperArm 10
+    401758: Bip001 R UpperArm 11
+    401760: Bip001 R UpperArm 2
+    401762: Bip001 R UpperArm 3
+    401764: Bip001 R UpperArm 4
+    401766: Bip001 R UpperArm 5
+    401768: Bip001 R UpperArm 6
+    401770: Bip001 R UpperArm 7
+    401772: Bip001 R UpperArm 8
+    401774: Bip001 R UpperArm 9
+    401776: Bip001 Spine
+    401778: Bip001 Spine 1
+    401780: Bip001 Spine 10
+    401782: Bip001 Spine 11
+    401784: Bip001 Spine 2
+    401786: Bip001 Spine 3
+    401788: Bip001 Spine 4
+    401790: Bip001 Spine 5
+    401792: Bip001 Spine 6
+    401794: Bip001 Spine 7
+    401796: Bip001 Spine 8
+    401798: Bip001 Spine 9
+    401800: Bip001 Spine1
+    401802: Bip001 Spine1 1
+    401804: Bip001 Spine1 10
+    401806: Bip001 Spine1 11
+    401808: Bip001 Spine1 12
+    401810: Bip001 Spine1 13
+    401812: Bip001 Spine1 2
+    401814: Bip001 Spine1 3
+    401816: Bip001 Spine1 4
+    401818: Bip001 Spine1 5
+    401820: Bip001 Spine1 6
+    401822: Bip001 Spine1 7
+    401824: Bip001 Spine1 8
+    401826: Bip001 Spine1 9
+    401828: Bip001 Spine2
+    401830: Bip001 Spine2 1
+    401832: Bip001 Spine2 10
+    401834: Bip001 Spine2 11
+    401836: Bip001 Spine2 2
+    401838: Bip001 Spine2 3
+    401840: Bip001 Spine2 4
+    401842: Bip001 Spine2 5
+    401844: Bip001 Spine2 6
+    401846: Bip001 Spine2 7
+    401848: Bip001 Spine2 8
+    401850: Bip001 Spine2 9
+    401852: Black Circle
+    401854: Blast
+    401856: Body
+    401858: Body 1
+    401860: Body 10
+    401862: Body 11
+    401864: Body 12
+    401866: Body 13
+    401868: Body 14
+    401870: Body 15
+    401872: Body 2
+    401874: Body 3
+    401876: Body 4
+    401878: Body 5
+    401880: Body 6
+    401882: Body 7
+    401884: Body 8
+    401886: Body 9
+    401888: Bone001
+    401890: Bone001 1
+    401892: Bone001 10
+    401894: Bone001 11
+    401896: Bone001 2
+    401898: Bone001 3
+    401900: Bone001 4
+    401902: Bone001 5
+    401904: Bone001 6
+    401906: Bone001 7
+    401908: Bone001 8
+    401910: Bone001 9
+    401912: Bone001(mirrored)
+    401914: Bone001(mirrored) 1
+    401916: Bone001(mirrored) 10
+    401918: Bone001(mirrored) 11
+    401920: Bone001(mirrored) 2
+    401922: Bone001(mirrored) 3
+    401924: Bone001(mirrored) 4
+    401926: Bone001(mirrored) 5
+    401928: Bone001(mirrored) 6
+    401930: Bone001(mirrored) 7
+    401932: Bone001(mirrored) 8
+    401934: Bone001(mirrored) 9
+    401936: Bone002
+    401938: Bone002 1
+    401940: Bone002 10
+    401942: Bone002 11
+    401944: Bone002 2
+    401946: Bone002 3
+    401948: Bone002 4
+    401950: Bone002 5
+    401952: Bone002 6
+    401954: Bone002 7
+    401956: Bone002 8
+    401958: Bone002 9
+    401960: Bone002(mirrored)
+    401962: Bone002(mirrored) 1
+    401964: Bone002(mirrored) 10
+    401966: Bone002(mirrored) 11
+    401968: Bone002(mirrored) 2
+    401970: Bone002(mirrored) 3
+    401972: Bone002(mirrored) 4
+    401974: Bone002(mirrored) 5
+    401976: Bone002(mirrored) 6
+    401978: Bone002(mirrored) 7
+    401980: Bone002(mirrored) 8
+    401982: Bone002(mirrored) 9
+    401984: Bone003
+    401986: Bone003 1
+    401988: Bone003 10
+    401990: Bone003 11
+    401992: Bone003 2
+    401994: Bone003 3
+    401996: Bone003 4
+    401998: Bone003 5
+    402000: Bone003 6
+    402002: Bone003 7
+    402004: Bone003 8
+    402006: Bone003 9
+    402008: Bone003(mirrored)
+    402010: Bone003(mirrored) 1
+    402012: Bone003(mirrored) 10
+    402014: Bone003(mirrored) 11
+    402016: Bone003(mirrored) 2
+    402018: Bone003(mirrored) 3
+    402020: Bone003(mirrored) 4
+    402022: Bone003(mirrored) 5
+    402024: Bone003(mirrored) 6
+    402026: Bone003(mirrored) 7
+    402028: Bone003(mirrored) 8
+    402030: Bone003(mirrored) 9
+    402032: Bone004
+    402034: Bone004 1
+    402036: Bone004 10
+    402038: Bone004 11
+    402040: Bone004 2
+    402042: Bone004 3
+    402044: Bone004 4
+    402046: Bone004 5
+    402048: Bone004 6
+    402050: Bone004 7
+    402052: Bone004 8
+    402054: Bone004 9
+    402056: Bone004(mirrored)
+    402058: Bone004(mirrored) 1
+    402060: Bone004(mirrored) 10
+    402062: Bone004(mirrored) 11
+    402064: Bone004(mirrored) 2
+    402066: Bone004(mirrored) 3
+    402068: Bone004(mirrored) 4
+    402070: Bone004(mirrored) 5
+    402072: Bone004(mirrored) 6
+    402074: Bone004(mirrored) 7
+    402076: Bone004(mirrored) 8
+    402078: Bone004(mirrored) 9
+    402080: Bone005
+    402082: Bone005 1
+    402084: Bone005 10
+    402086: Bone005 11
+    402088: Bone005 2
+    402090: Bone005 3
+    402092: Bone005 4
+    402094: Bone005 5
+    402096: Bone005 6
+    402098: Bone005 7
+    402100: Bone005 8
+    402102: Bone005 9
+    402104: Bone005(mirrored)
+    402106: Bone005(mirrored) 1
+    402108: Bone005(mirrored) 10
+    402110: Bone005(mirrored) 11
+    402112: Bone005(mirrored) 2
+    402114: Bone005(mirrored) 3
+    402116: Bone005(mirrored) 4
+    402118: Bone005(mirrored) 5
+    402120: Bone005(mirrored) 6
+    402122: Bone005(mirrored) 7
+    402124: Bone005(mirrored) 8
+    402126: Bone005(mirrored) 9
+    402128: Bone006
+    402130: Bone006 1
+    402132: Bone006 10
+    402134: Bone006 11
+    402136: Bone006 2
+    402138: Bone006 3
+    402140: Bone006 4
+    402142: Bone006 5
+    402144: Bone006 6
+    402146: Bone006 7
+    402148: Bone006 8
+    402150: Bone006 9
+    402152: Bone006(mirrored)
+    402154: Bone006(mirrored) 1
+    402156: Bone006(mirrored) 10
+    402158: Bone006(mirrored) 11
+    402160: Bone006(mirrored) 2
+    402162: Bone006(mirrored) 3
+    402164: Bone006(mirrored) 4
+    402166: Bone006(mirrored) 5
+    402168: Bone006(mirrored) 6
+    402170: Bone006(mirrored) 7
+    402172: Bone006(mirrored) 8
+    402174: Bone006(mirrored) 9
+    402176: Bone007
+    402178: Bone007 1
+    402180: Bone007 10
+    402182: Bone007 11
+    402184: Bone007 2
+    402186: Bone007 3
+    402188: Bone007 4
+    402190: Bone007 5
+    402192: Bone007 6
+    402194: Bone007 7
+    402196: Bone007 8
+    402198: Bone007 9
+    402200: Bone007(mirrored)
+    402202: Bone007(mirrored) 1
+    402204: Bone007(mirrored) 10
+    402206: Bone007(mirrored) 11
+    402208: Bone007(mirrored) 2
+    402210: Bone007(mirrored) 3
+    402212: Bone007(mirrored) 4
+    402214: Bone007(mirrored) 5
+    402216: Bone007(mirrored) 6
+    402218: Bone007(mirrored) 7
+    402220: Bone007(mirrored) 8
+    402222: Bone007(mirrored) 9
+    402224: Bone008
+    402226: Bone008 1
+    402228: Bone008 10
+    402230: Bone008 11
+    402232: Bone008 2
+    402234: Bone008 3
+    402236: Bone008 4
+    402238: Bone008 5
+    402240: Bone008 6
+    402242: Bone008 7
+    402244: Bone008 8
+    402246: Bone008 9
+    402248: Bone008(mirrored)
+    402250: Bone008(mirrored) 1
+    402252: Bone008(mirrored) 10
+    402254: Bone008(mirrored) 11
+    402256: Bone008(mirrored) 2
+    402258: Bone008(mirrored) 3
+    402260: Bone008(mirrored) 4
+    402262: Bone008(mirrored) 5
+    402264: Bone008(mirrored) 6
+    402266: Bone008(mirrored) 7
+    402268: Bone008(mirrored) 8
+    402270: Bone008(mirrored) 9
+    402272: Bone009
+    402274: Bone009 1
+    402276: Bone009 10
+    402278: Bone009 11
+    402280: Bone009 2
+    402282: Bone009 3
+    402284: Bone009 4
+    402286: Bone009 5
+    402288: Bone009 6
+    402290: Bone009 7
+    402292: Bone009 8
+    402294: Bone009 9
+    402296: Bone009(mirrored)
+    402298: Bone009(mirrored) 1
+    402300: Bone009(mirrored) 10
+    402302: Bone009(mirrored) 11
+    402304: Bone009(mirrored) 2
+    402306: Bone009(mirrored) 3
+    402308: Bone009(mirrored) 4
+    402310: Bone009(mirrored) 5
+    402312: Bone009(mirrored) 6
+    402314: Bone009(mirrored) 7
+    402316: Bone009(mirrored) 8
+    402318: Bone009(mirrored) 9
+    402320: Bone010
+    402322: Bone010 1
+    402324: Bone010 2
+    402326: Bone011
+    402328: Bone011 1
+    402330: Bone011 2
+    402332: Bone012
+    402334: Bone012 1
+    402336: Bone012 2
+    402338: Bone013
+    402340: Bone013 1
+    402342: Bone013 2
+    402344: Bone014
+    402346: Bone014 1
+    402348: Bone014 2
+    402350: Bone015
+    402352: Bone015 1
+    402354: Bone015 2
+    402356: Bone016
+    402358: Bone016 1
+    402360: Bone016 2
+    402362: Bone017
+    402364: Bone017 1
+    402366: Bone017 2
+    402368: Bone018
+    402370: Bone018 1
+    402372: Bone018 2
+    402374: Bone019
+    402376: Bone019 1
+    402378: Bone019 2
+    402380: Bone020
+    402382: Bone020 1
+    402384: Bone020 2
+    402386: Bone021
+    402388: Bone021 1
+    402390: Bone021 10
+    402392: Bone021 11
+    402394: Bone021 2
+    402396: Bone021 3
+    402398: Bone021 4
+    402400: Bone021 5
+    402402: Bone021 6
+    402404: Bone021 7
+    402406: Bone021 8
+    402408: Bone021 9
+    402410: Bone022
+    402412: Bone022 1
+    402414: Bone022 10
+    402416: Bone022 11
+    402418: Bone022 2
+    402420: Bone022 3
+    402422: Bone022 4
+    402424: Bone022 5
+    402426: Bone022 6
+    402428: Bone022 7
+    402430: Bone022 8
+    402432: Bone022 9
+    402434: Bone023
+    402436: Bone023 1
+    402438: Bone023 10
+    402440: Bone023 11
+    402442: Bone023 2
+    402444: Bone023 3
+    402446: Bone023 4
+    402448: Bone023 5
+    402450: Bone023 6
+    402452: Bone023 7
+    402454: Bone023 8
+    402456: Bone023 9
+    402458: Bone024
+    402460: Bone024 1
+    402462: Bone024 10
+    402464: Bone024 11
+    402466: Bone024 2
+    402468: Bone024 3
+    402470: Bone024 4
+    402472: Bone024 5
+    402474: Bone024 6
+    402476: Bone024 7
+    402478: Bone024 8
+    402480: Bone024 9
+    402482: Bone025
+    402484: Bone025 1
+    402486: Bone025 2
+    402488: Bone025 3
+    402490: Bone025 4
+    402492: Bone025 5
+    402494: Bone026
+    402496: Bone026 1
+    402498: Bone026 2
+    402500: Bone026 3
+    402502: Bone026 4
+    402504: Bone026 5
+    402506: Bone026 6
+    402508: Bone027
+    402510: Bone027 1
+    402512: Bone027 2
+    402514: Bone027 3
+    402516: Bone027 4
+    402518: Bone027 5
+    402520: Bone028
+    402522: Bone028 1
+    402524: Bone028 2
+    402526: Bone028 3
+    402528: Bone028 4
+    402530: Bone028 5
+    402532: Bone029
+    402534: Bone029 1
+    402536: Bone029 2
+    402538: Bone029 3
+    402540: Bone029 4
+    402542: Bone029 5
+    402544: Bone030
+    402546: Bone030 1
+    402548: Bone030 2
+    402550: Bone030 3
+    402552: Bone030 4
+    402554: Bone030 5
+    402556: Bone031
+    402558: Bone031 1
+    402560: Bone031 2
+    402562: Bone031 3
+    402564: Bone031 4
+    402566: Bone031 5
+    402568: Bone032
+    402570: Bone032 1
+    402572: Bone032 2
+    402574: Bone032 3
+    402576: Bone032 4
+    402578: Bone032 5
+    402580: Bone033
+    402582: Bone033 1
+    402584: Bone033 2
+    402586: Bone033 3
+    402588: Bone033 4
+    402590: Bone033 5
+    402592: Bone033 6
+    402594: Bone034
+    402596: Bone034 1
+    402598: Bone034 2
+    402600: Bone034 3
+    402602: Bone034 4
+    402604: Bone034 5
+    402606: Bone035
+    402608: Bone035 1
+    402610: Bone035 2
+    402612: Bone035 3
+    402614: Bone035 4
+    402616: Bone035 5
+    402618: Bone036
+    402620: Bone036 1
+    402622: Bone036 2
+    402624: Bone036 3
+    402626: Bone036 4
+    402628: Bone036 5
+    402630: Bone037
+    402632: Bone037 1
+    402634: Bone037 2
+    402636: Bone037 3
+    402638: Bone037 4
+    402640: Bone037 5
+    402642: Bone038
+    402644: Bone038 1
+    402646: Bone038 2
+    402648: Bone038 3
+    402650: Bone038 4
+    402652: Bone038 5
+    402654: Bone039
+    402656: Bone039 1
+    402658: Bone039 2
+    402660: Bone039 3
+    402662: Bone039 4
+    402664: Bone039 5
+    402666: Bone039 6
+    402668: Bone040
+    402670: Bone040 1
+    402672: Bone040 2
+    402674: Bone040 3
+    402676: Bone040 4
+    402678: Bone040 5
+    402680: Bone041
+    402682: Bone041 1
+    402684: Bone041 2
+    402686: Bone041 3
+    402688: Bone041 4
+    402690: Bone041 5
+    402692: Bone042
+    402694: Bone042 1
+    402696: Bone042 2
+    402698: Bone042 3
+    402700: Bone042 4
+    402702: Bone042 5
+    402704: Bone043
+    402706: Bone043 1
+    402708: Bone043 2
+    402710: Bone043 3
+    402712: Bone043 4
+    402714: Bone043 5
+    402716: Bone044
+    402718: Bone044 1
+    402720: Bone044 2
+    402722: Bone044 3
+    402724: Bone044 4
+    402726: Bone044 5
+    402728: Bone045
+    402730: Bone045 1
+    402732: Bone045 2
+    402734: Bone045 3
+    402736: Bone045 4
+    402738: Bone045 5
+    402740: Bone046
+    402742: Bone046 1
+    402744: Bone046 2
+    402746: Bone046 3
+    402748: Bone046 4
+    402750: Bone046 5
+    402752: Bone046 6
+    402754: Bone047
+    402756: Bone047 1
+    402758: Bone047 2
+    402760: Bone047 3
+    402762: Bone047 4
+    402764: Bone047 5
+    402766: Bone048
+    402768: Bone048 1
+    402770: Bone048 2
+    402772: Bone048 3
+    402774: Bone048 4
+    402776: Bone048 5
+    402778: Bone049
+    402780: Bone049 1
+    402782: Bone049 2
+    402784: Bone049 3
+    402786: Bone049 4
+    402788: Bone049 5
+    402790: Bone050
+    402792: Bone050 1
+    402794: Bone050 2
+    402796: Bone050 3
+    402798: Bone050 4
+    402800: Bone050 5
+    402802: Bone051
+    402804: Bone051 1
+    402806: Bone051 2
+    402808: Bone051 3
+    402810: Bone051 4
+    402812: Bone051 5
+    402814: Bone052
+    402816: Bone052 1
+    402818: Bone052 2
+    402820: Bone053
+    402822: Bone053 1
+    402824: Bone053 2
+    402826: Bone054
+    402828: Bone054 1
+    402830: Bone054 2
+    402832: cannon
+    402834: diffusion
+    402836: diffusion_2
+    402838: Dust
+    402840: Dust 1
+    402842: Dust 2
+    402844: Dust 3
+    402846: Effect_Kiana_BigGun
+    402848: Effect_KianaEffect_Model_YN_BigGun
+    402850: Electric ring
+    402852: Electric ring (1)
+    402854: Electro
+    402856: Electro 1
+    402858: Electro 2
+    402860: Electro 3
+    402862: Electro 4
+    402864: Electro_2
+    402866: Electro_2 1
+    402868: Electro_2 2
+    402870: Electro_2 3
+    402872: Electro_2 4
+    402874: energy
+    402876: Explosion-B
+    402878: Eye_L
+    402880: Eye_L 1
+    402882: Eye_L 10
+    402884: Eye_L 11
+    402886: Eye_L 2
+    402888: Eye_L 3
+    402890: Eye_L 4
+    402892: Eye_L 5
+    402894: Eye_L 6
+    402896: Eye_L 7
+    402898: Eye_L 8
+    402900: Eye_L 9
+    402902: Eye_R
+    402904: Eye_R 1
+    402906: Eye_R 10
+    402908: Eye_R 11
+    402910: Eye_R 2
+    402912: Eye_R 3
+    402914: Eye_R 4
+    402916: Eye_R 5
+    402918: Eye_R 6
+    402920: Eye_R 7
+    402922: Eye_R 8
+    402924: Eye_R 9
+    402926: Face
+    402928: Face 1
+    402930: Face 10
+    402932: Face 11
+    402934: Face 12
+    402936: Face 13
+    402938: Face 14
+    402940: Face 2
+    402942: Face 3
+    402944: Face 4
+    402946: Face 5
+    402948: Face 6
+    402950: Face 7
+    402952: Face 8
+    402954: Face 9
+    402956: FaceQ
+    402958: fire_1
+    402960: fire_1 1
+    402962: fire_2
+    402964: fire_2 1
+    402966: Flash00
+    402968: Flash00 1
+    402970: gal_arm_l
+    402972: gal_arm_l 1
+    402974: gal_arm_l 2
+    402976: gal_arm_l 3
+    402978: gal_arm_r
+    402980: gal_arm_r 1
+    402982: gal_arm_r 2
+    402984: gal_arm_r 3
+    402986: gal_chest
+    402988: gal_chest 1
+    402990: gal_chest 2
+    402992: gal_chest 3
+    402994: gal_face
+    402996: gal_face 1
+    402998: gal_face 2
+    403000: gal_face 3
+    403002: gal_head
+    403004: gal_head 1
+    403006: gal_head 2
+    403008: gal_head 3
+    403010: gal_leg_l
+    403012: gal_leg_l 1
+    403014: gal_leg_l 2
+    403016: gal_leg_l 3
+    403018: gal_leg_r
+    403020: gal_leg_r 1
+    403022: gal_leg_r 2
+    403024: gal_leg_r 3
+    403026: gal_private
+    403028: gal_private 1
+    403030: gal_private 2
+    403032: gal_private 3
+    403034: gal_stomach
+    403036: gal_stomach 1
+    403038: gal_stomach 2
+    403040: gal_stomach 3
+    403042: Galaxy
+    403044: Gathered
+    403046: Gathered 1
+    403048: Gathered 2
+    403050: Gathered 3
+    403052: Gathered 4
+    403054: Glow
+    403056: Glow 1
+    403058: Glow 2
+    403060: Glow 3
+    403062: group1
+    403064: Hair
+    403066: Hair 1
+    403068: Hair 10
+    403070: Hair 11
+    403072: Hair 12
+    403074: Hair 13
+    403076: Hair 14
+    403078: Hair 15
+    403080: Hair 2
+    403082: Hair 3
+    403084: Hair 4
+    403086: Hair 5
+    403088: Hair 6
+    403090: Hair 7
+    403092: Hair 8
+    403094: Hair 9
+    403096: InnerCamera
+    403098: InnerCamera 1
+    403100: InnerCamera 10
+    403102: InnerCamera 11
+    403104: InnerCamera 12
+    403106: InnerCamera 2
+    403108: InnerCamera 3
+    403110: InnerCamera 4
+    403112: InnerCamera 5
+    403114: InnerCamera 6
+    403116: InnerCamera 7
+    403118: InnerCamera 8
+    403120: InnerCamera 9
+    403122: //RootNode
+    403124: LeftGunPoint
+    403126: LeftGunPoint 1
+    403128: LeftGunPoint 10
+    403130: LeftGunPoint 11
+    403132: LeftGunPoint 2
+    403134: LeftGunPoint 3
+    403136: LeftGunPoint 4
+    403138: LeftGunPoint 5
+    403140: LeftGunPoint 6
+    403142: LeftGunPoint 7
+    403144: LeftGunPoint 8
+    403146: LeftGunPoint 9
+    403148: Light
+    403150: Light 1
+    403152: Lightbeam04
+    403154: Lightning
+    403156: Lightning_2
+    403158: Line02
+    403160: Link_L
+    403162: Link_L 1
+    403164: Link_L 10
+    403166: Link_L 11
+    403168: Link_L 12
+    403170: Link_L 13
+    403172: Link_L 14
+    403174: Link_L 15
+    403176: Link_L 2
+    403178: Link_L 3
+    403180: Link_L 4
+    403182: Link_L 5
+    403184: Link_L 6
+    403186: Link_L 7
+    403188: Link_L 8
+    403190: Link_L 9
+    403192: Link_R
+    403194: Link_R 1
+    403196: Link_R 10
+    403198: Link_R 11
+    403200: Link_R 12
+    403202: Link_R 13
+    403204: Link_R 14
+    403206: Link_R 15
+    403208: Link_R 2
+    403210: Link_R 3
+    403212: Link_R 4
+    403214: Link_R 5
+    403216: Link_R 6
+    403218: Link_R 7
+    403220: Link_R 8
+    403222: Link_R 9
+    403224: Logo01
+    403226: Logo01 1
+    403228: Logo01 2
+    403230: Logo01 3
+    403232: Logo02
+    403234: Logo02 1
+    403236: Logo02 2
+    403238: Logo02 3
+    403240: Logo03
+    403242: Logo03 1
+    403244: Logo03 2
+    403246: Logo03 3
+    403248: Mouth
+    403250: Mouth 1
+    403252: Mouth 10
+    403254: Mouth 11
+    403256: Mouth 2
+    403258: Mouth 3
+    403260: Mouth 4
+    403262: Mouth 5
+    403264: Mouth 6
+    403266: Mouth 7
+    403268: Mouth 8
+    403270: Mouth 9
+    403272: O01
+    403274: O01 1
+    403276: O01 2
+    403278: O01 3
+    403280: Object002
+    403282: Object003
+    403284: Object004
+    403286: Object005
+    403288: Object009
+    403290: Object010
+    403292: Object011
+    403294: Object012
+    403296: Object013
+    403298: Object014
+    403300: Photosphere
+    403302: PT_BackJet
+    403304: PT_BackJet 1
+    403306: RealShadowPaster
+    403308: RealShadowPaster 1
+    403310: RealShadowPaster 10
+    403312: RealShadowPaster 11
+    403314: RealShadowPaster 12
+    403316: RealShadowPaster 2
+    403318: RealShadowPaster 3
+    403320: RealShadowPaster 4
+    403322: RealShadowPaster 5
+    403324: RealShadowPaster 6
+    403326: RealShadowPaster 7
+    403328: RealShadowPaster 8
+    403330: RealShadowPaster 9
+    403332: Relative
+    403334: Relative 1
+    403336: Relative 2
+    403338: Relative 3
+    403340: Relative 4
+    403342: RightGunPoint
+    403344: RightGunPoint 1
+    403346: RightGunPoint 10
+    403348: RightGunPoint 11
+    403350: RightGunPoint 2
+    403352: RightGunPoint 3
+    403354: RightGunPoint 4
+    403356: RightGunPoint 5
+    403358: RightGunPoint 6
+    403360: RightGunPoint 7
+    403362: RightGunPoint 8
+    403364: RightGunPoint 9
+    403366: Ring03
+    403368: Ring03 1
+    403370: Ring03 2
+    403372: Ring03 3
+    403374: Ring03 4
+    403376: Ring03 5
+    403378: Ring03 6
+    403380: Ring03 7
+    403382: Ring03 8
+    403384: Ring03 9
+    403386: Smoke-Y
+    403388: Smoke-Y 1
+    403390: Smoke-Y 2
+    403392: Smoke-Y 3
+    403394: Smoke-Y 4
+    403396: Smoke01
+    403398: Smoke01 1
+    403400: Smoke01 2
+    403402: Smoke01 3
+    403404: Smoke01 4
+    403406: Smoke01 5
+    403408: Smoke02
+    403410: Smoke03
+    403412: Spark
+    403414: Spark 1
+    403416: Spark 2
+    403418: Spark_2
+    403420: Spark_2 1
+    403422: Spot
+    403424: Spot 1
+    403426: Spot 10
+    403428: Spot 11
+    403430: Spot 2
+    403432: Spot 3
+    403434: Spot 4
+    403436: Spot 5
+    403438: Spot 6
+    403440: Spot 7
+    403442: Spot 8
+    403444: Spot 9
+    403446: Spot_2
+    403448: Spot_2 1
+    403450: Spot_2 2
+    403452: Spot_3
+    403454: Spot_3 1
+    403456: Star point
+    403458: Star_Anim
+    403460: Star_Anim 1
+    403462: Star_Anim 2
+    403464: Star_Anim 3
+    403466: Star_Anim 4
+    403468: Stigmata_Kiana
+    403470: Stigmata_Kiana 1
+    403472: Stigmata_Kiana 2
+    403474: Stigmata_Kiana 3
+    403476: Swirl
+    403478: Swirl-3
+    403480: Swirl-Black
+    403482: Swirl_2
+    403484: Swirl_Distortion
+    403486: Swirl_Distortion_2
+    403488: To light
+    403490: Trail_1
+    403492: Trail_1 1
+    403494: Trail_2
+    403496: Trail_2 1
+    403498: Wave06
+    403500: Wave06 1
+    403502: Wave07
+    403504: Wave07 1
+    403506: Wave07 2
+    403508: Wave07 3
+    403510: Wave07 4
+    403512: Wave07 5
+    403514: Wave07_2
+    403516: Wave07_2 1
+    403518: Wave07_2 2
+    403520: Weapon_L
+    403522: Weapon_L 1
+    403524: Weapon_L 10
+    403526: Weapon_L 11
+    403528: Weapon_L 12
+    403530: Weapon_L 13
+    403532: Weapon_L 14
+    403534: Weapon_L 15
+    403536: Weapon_L 2
+    403538: Weapon_L 3
+    403540: Weapon_L 4
+    403542: Weapon_L 5
+    403544: Weapon_L 6
+    403546: Weapon_L 7
+    403548: Weapon_L 8
+    403550: Weapon_L 9
+    403552: Weapon_R
+    403554: 'Weapon_R '
+    403556: Weapon_R 1
+    403558: Weapon_R 10
+    403560: Weapon_R 11
+    403562: Weapon_R 12
+    403564: Weapon_R 13
+    403566: Weapon_R 14
+    403568: Weapon_R 2
+    403570: Weapon_R 3
+    403572: Weapon_R 4
+    403574: Weapon_R 5
+    403576: Weapon_R 6
+    403578: Weapon_R 7
+    403580: Weapon_R 8
+    403582: Weapon_R 9
+    403584: Wing
+    403586: Wing 1
+    403588: Wing 2
+    403590: Wing 3
+    403592: Wing_L1
+    403594: Wing_L1 1
+    403596: Wing_L1 2
+    403598: Wing_L2
+    403600: Wing_L2 1
+    403602: Wing_L2 2
+    403604: Wing_L3
+    403606: Wing_L3 1
+    403608: Wing_L3 2
+    403610: Wing_L4
+    403612: Wing_L4 1
+    403614: Wing_L4 2
+    403616: Wing_L5
+    403618: Wing_L5 1
+    403620: Wing_L5 2
+    403622: Wing_R1
+    403624: Wing_R1 1
+    403626: Wing_R1 2
+    403628: Wing_R2
+    403630: Wing_R2 1
+    403632: Wing_R2 2
+    403634: Wing_R3
+    403636: Wing_R3 1
+    403638: Wing_R3 2
+    403640: Wing_R4
+    403642: Wing_R4 1
+    403644: Wing_R4 2
+    403646: Wing_R5
+    403648: Wing_R5 1
+    403650: Wing_R5 2
+    2300000: Back
+    2300002: Back 1
+    2300004: Back 2
+    2300006: Back 3
+    2300008: BigGun1
+    2300010: Body 1
+    2300012: Body 12
+    2300014: Body 14
+    2300016: Body 4
+    2300018: Body 8
+    2300020: Effect_KianaEffect_Model_YN_BigGun
+    2300022: Eye_L 1
+    2300024: Eye_L 10
+    2300026: Eye_L 4
+    2300028: Eye_L 7
+    2300030: Eye_R 1
+    2300032: Eye_R 10
+    2300034: Eye_R 4
+    2300036: Eye_R 7
+    2300038: Face 1
+    2300040: Face 10
+    2300042: Face 12
+    2300044: Face 4
+    2300046: Face 8
+    2300048: Hair 1
+    2300050: Hair 12
+    2300052: Hair 4
+    2300054: Hair 8
+    2300056: Logo01
+    2300058: Logo01 1
+    2300060: Logo01 2
+    2300062: Logo01 3
+    2300064: Logo02
+    2300066: Logo02 1
+    2300068: Logo02 2
+    2300070: Logo02 3
+    2300072: Logo03
+    2300074: Logo03 1
+    2300076: Logo03 2
+    2300078: Logo03 3
+    2300080: Mouth 1
+    2300082: Mouth 10
+    2300084: Mouth 4
+    2300086: Mouth 7
+    2300088: O01 1
+    2300090: Object002
+    2300092: Object003
+    2300094: Object004
+    2300096: Object005
+    2300098: Object009
+    2300100: Object010
+    2300102: Object011
+    2300104: Object012
+    2300106: Object013
+    2300108: Object014
+    2300110: Weapon_L 1
+    2300112: Weapon_L 11
+    2300114: Weapon_L 4
+    2300116: Weapon_L 7
+    2300118: Weapon_L 9
+    2300120: Weapon_R 1
+    2300122: Weapon_R 11
+    2300124: Weapon_R 4
+    2300126: Weapon_R 7
+    2300128: Weapon_R 9
+    2300130: Wing 1
+    3300000: Back
+    3300002: Back 1
+    3300004: Back 2
+    3300006: Back 3
+    3300008: BigGun1
+    3300010: Body 1
+    3300012: Body 12
+    3300014: Body 14
+    3300016: Body 4
+    3300018: Body 8
+    3300020: Effect_KianaEffect_Model_YN_BigGun
+    3300022: Eye_L 1
+    3300024: Eye_L 10
+    3300026: Eye_L 4
+    3300028: Eye_L 7
+    3300030: Eye_R 1
+    3300032: Eye_R 10
+    3300034: Eye_R 4
+    3300036: Eye_R 7
+    3300038: Face 1
+    3300040: Face 10
+    3300042: Face 12
+    3300044: Face 4
+    3300046: Face 8
+    3300048: Hair 1
+    3300050: Hair 12
+    3300052: Hair 4
+    3300054: Hair 8
+    3300056: Logo01
+    3300058: Logo01 1
+    3300060: Logo01 2
+    3300062: Logo01 3
+    3300064: Logo02
+    3300066: Logo02 1
+    3300068: Logo02 2
+    3300070: Logo02 3
+    3300072: Logo03
+    3300074: Logo03 1
+    3300076: Logo03 2
+    3300078: Logo03 3
+    3300080: Mouth 1
+    3300082: Mouth 10
+    3300084: Mouth 4
+    3300086: Mouth 7
+    3300088: O01 1
+    3300090: Object002
+    3300092: Object003
+    3300094: Object004
+    3300096: Object005
+    3300098: Object009
+    3300100: Object010
+    3300102: Object011
+    3300104: Object012
+    3300106: Object013
+    3300108: Object014
+    3300110: Weapon_L 1
+    3300112: Weapon_L 11
+    3300114: Weapon_L 4
+    3300116: Weapon_L 7
+    3300118: Weapon_L 9
+    3300120: Weapon_R 1
+    3300122: Weapon_R 11
+    3300124: Weapon_R 4
+    3300126: Weapon_R 7
+    3300128: Weapon_R 9
+    3300130: Wing 1
+    4300000: Weapon_R
+    4300002: Weapon_L
+    4300004: Eye_R
+    4300006: Hair
+    4300008: Body
+    4300010: Face
+    4300012: Eye_L
+    4300014: O01
+    4300016: Mouth
+    4300018: Body
+    4300020: O01
+    4300022: Hair
+    4300024: Eye_R
+    4300026: O01
+    4300028: Hair
+    4300030: Mouth
+    4300032: Face
+    4300034: Eye_L
+    4300036: Body
+    4300038: Body
+    4300040: Face
+    4300042: O01
+    4300044: Back
+    4300046: Logo02
+    4300048: Logo01
+    4300050: Logo03
+    4300052: Mouth
+    4300054: Eye_L
+    4300056: Eye_R
+    4300058: Hair
+    4300060: Eye_L
+    4300062: Hair
+    4300064: Eye_R
+    4300066: Body
+    4300068: Mouth
+    4300070: Face
+    4300072: Body
+    4300074: Face
+    4300076: Mouth
+    4300078: Hair
+    4300080: Eye_L
+    4300082: Eye_R
+    4300084: Eye_L
+    4300086: Hair
+    4300088: Eye_R
+    4300090: Body
+    4300092: Mouth
+    4300094: Face
+    4300096: Face
+    4300098: Hair
+    4300100: Mouth
+    4300102: Eye_R
+    4300104: Body
+    4300106: Eye_L
+    4300108: Body
+    4300110: Hair
+    4300112: Face
+    4300114: Body
+    4300116: Eye_R
+    4300118: Eye_L
+    4300120: Hair
+    4300122: Mouth
+    4300124: Face
+    4300126: Eye_L
+    4300128: Body
+    4300130: Mouth
+    4300132: Hair
+    4300134: Eye_R
+    4300136: Face
+    4300138: Hair
+    4300140: Body
+    4300142: Eye_R
+    4300144: Eye_L
+    4300146: Face
+    4300148: Mouth
+    4300150: Wing
+    4300152: Body
+    4300154: Face
+    4300156: Wing
+    4300158: Hair
+    4300160: Body
+    4300162: Wing
+    4300164: Eye_L
+    4300166: Eye_R
+    4300168: Face
+    4300170: Hair
+    4300172: Mouth
+    4300174: Body
+    4300176: Face
+    4300178: Wing
+    4300180: Eye_R
+    4300182: Eye_L
+    4300184: Hair
+    4300186: Mouth
+    4300188: Effect_KianaEffect_Model_YN_BigGun
+    4300190: Object012
+    4300192: Object004
+    4300194: Object010
+    4300196: Object005
+    4300198: Object003
+    4300200: BigGun1
+    4300202: Object014
+    4300204: Object013
+    4300206: Object002
+    4300208: Object011
+    4300210: Object009
+    9500000: //RootNode
+    13700000: Body
+    13700002: Body 10
+    13700004: Body 11
+    13700006: Body 13
+    13700008: Body 15
+    13700010: Body 2
+    13700012: Body 3
+    13700014: Body 5
+    13700016: Body 7
+    13700018: Body 9
+    13700020: Eye_L
+    13700022: Eye_L 11
+    13700024: Eye_L 2
+    13700026: Eye_L 3
+    13700028: Eye_L 5
+    13700030: Eye_L 6
+    13700032: Eye_L 8
+    13700034: Eye_L 9
+    13700036: Eye_R
+    13700038: Eye_R 11
+    13700040: Eye_R 2
+    13700042: Eye_R 3
+    13700044: Eye_R 5
+    13700046: Eye_R 6
+    13700048: Eye_R 8
+    13700050: Eye_R 9
+    13700052: Face
+    13700054: Face 11
+    13700056: Face 13
+    13700058: Face 14
+    13700060: Face 2
+    13700062: Face 3
+    13700064: Face 5
+    13700066: Face 7
+    13700068: Face 9
+    13700070: Hair
+    13700072: Hair 10
+    13700074: Hair 11
+    13700076: Hair 13
+    13700078: Hair 14
+    13700080: Hair 15
+    13700082: Hair 2
+    13700084: Hair 3
+    13700086: Hair 5
+    13700088: Hair 7
+    13700090: Hair 9
+    13700092: Mouth
+    13700094: Mouth 11
+    13700096: Mouth 2
+    13700098: Mouth 3
+    13700100: Mouth 5
+    13700102: Mouth 6
+    13700104: Mouth 8
+    13700106: Mouth 9
+    13700108: O01
+    13700110: O01 2
+    13700112: O01 3
+    13700114: Wing
+    13700116: Wing 2
+    13700118: Wing 3
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 17
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
